@@ -1,0 +1,453 @@
+{
+  "items": [
+    {
+      "text": "Bắt Đầu",
+      "items": [
+        {
+          "text": "Tổng Quan",
+          "path": "bat-dau",
+          "isIndex": true
+        },
+        {
+          "text": "Yêu Cầu Hệ Thống",
+          "path": "bat-dau/yeu-cau-he-thong.md"
+        },
+        {
+          "text": "Cài Đặt",
+          "path": "bat-dau/cai-dat.md"
+        },
+        {
+          "text": "Audit Đầu Tiên",
+          "path": "bat-dau/audit-dau-tien.md"
+        },
+        {
+          "text": "Quản Lý License",
+          "path": "bat-dau/quan-ly-license.md"
+        }
+      ]
+    },
+    {
+      "text": "Workflows",
+      "items": [
+        {
+          "text": "Tổng Quan Vòng Đời SEO",
+          "path": "workflows",
+          "isIndex": true
+        },
+        {
+          "text": "/seo-run — Master Orchestrator",
+          "path": "workflows/seo-run.md"
+        },
+        {
+          "text": "/seo-onboard — Phase 1: Khởi Tạo",
+          "path": "workflows/seo-onboard.md"
+        },
+        {
+          "text": "/seo-research — Nghiên Cứu",
+          "path": "workflows/seo-research.md"
+        },
+        {
+          "text": "/seo-audit — Phase 2: Kiểm Tra",
+          "path": "workflows/seo-audit.md"
+        },
+        {
+          "text": "/seo-strategy — Phase 3: Chiến Lược",
+          "path": "workflows/seo-strategy.md"
+        },
+        {
+          "text": "/seo-execute — Phase 4: Thực Thi",
+          "path": "workflows/seo-execute.md"
+        },
+        {
+          "text": "/seo-monitor — Phase 5: Giám Sát",
+          "path": "workflows/seo-monitor.md"
+        },
+        {
+          "text": "/seo-local-suite — Local SEO",
+          "path": "workflows/seo-local-suite.md"
+        },
+        {
+          "text": "/seo-page — Phân Tích Trang Đơn",
+          "path": "workflows/seo-page.md"
+        }
+      ]
+    },
+    {
+      "text": "Hướng Dẫn",
+      "items": [
+        {
+          "text": "Tổng Quan",
+          "path": "huong-dan",
+          "isIndex": true
+        },
+        {
+          "text": "Audit Cơ Bản",
+          "isLazyExpandable": true,
+          "path": "huong-dan/audit-co-ban",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "huong-dan/audit-co-ban",
+              "isIndex": true,
+              "isInSeries": true
+            },
+            {
+              "text": "1: Onboarding Dự Án",
+              "path": "huong-dan/audit-co-ban/phan-01.md",
+              "isInSeries": true
+            },
+            {
+              "text": "2: Chạy Audit",
+              "path": "huong-dan/audit-co-ban/phan-02.md",
+              "isInSeries": true
+            },
+            {
+              "text": "3: Đọc Kết Quả",
+              "path": "huong-dan/audit-co-ban/phan-03.md",
+              "isInSeries": true
+            }
+          ]
+        },
+        {
+          "text": "Vòng Đời Đầy Đủ (5 Phase)",
+          "isLazyExpandable": true,
+          "path": "huong-dan/vong-doi-day-du",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "huong-dan/vong-doi-day-du",
+              "isIndex": true,
+              "isInSeries": true
+            },
+            {
+              "text": "1: Onboard — Khởi Tạo Dự Án",
+              "path": "huong-dan/vong-doi-day-du/phan-01.md",
+              "isInSeries": true
+            },
+            {
+              "text": "2: Research — Nghiên Cứu",
+              "path": "huong-dan/vong-doi-day-du/phan-02.md",
+              "isInSeries": true
+            },
+            {
+              "text": "3: Audit — Kiểm Tra Toàn Diện",
+              "path": "huong-dan/vong-doi-day-du/phan-03.md",
+              "isInSeries": true
+            },
+            {
+              "text": "4: Strategy — Chiến Lược",
+              "path": "huong-dan/vong-doi-day-du/phan-04.md",
+              "isInSeries": true
+            },
+            {
+              "text": "5: Execute — Thực Thi",
+              "path": "huong-dan/vong-doi-day-du/phan-05.md",
+              "isInSeries": true
+            },
+            {
+              "text": "6: Monitor — Giám Sát",
+              "path": "huong-dan/vong-doi-day-du/phan-06.md",
+              "isInSeries": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CLI",
+      "items": [
+        {
+          "text": "Tổng Quan",
+          "path": "cli",
+          "isIndex": true
+        },
+        {
+          "text": "Danh Sách Lệnh",
+          "path": "cli/lenh.md"
+        }
+      ]
+    },
+    {
+      "text": "Kỹ Năng",
+      "items": [
+        {
+          "text": "Tổng Quan",
+          "path": "ky-nang",
+          "isIndex": true
+        },
+        {
+          "text": "Technical SEO",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "ky-nang/ky-thuat",
+              "isIndex": true
+            },
+            {
+              "text": "seo-technical — Kiểm Tra Kỹ Thuật",
+              "path": "ky-nang/ky-thuat/seo-technical.md"
+            },
+            {
+              "text": "seo-sitemap — Sitemap",
+              "path": "ky-nang/ky-thuat/seo-sitemap.md"
+            },
+            {
+              "text": "seo-images — Hình Ảnh",
+              "path": "ky-nang/ky-thuat/seo-images.md"
+            },
+            {
+              "text": "seo-hreflang — Đa Ngôn Ngữ",
+              "path": "ky-nang/ky-thuat/seo-hreflang.md"
+            },
+            {
+              "text": "seo-page — Phân Tích Trang",
+              "path": "ky-nang/ky-thuat/seo-page.md"
+            }
+          ]
+        },
+        {
+          "text": "Content SEO",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "ky-nang/noi-dung",
+              "isIndex": true
+            },
+            {
+              "text": "seo-content — Chất Lượng Nội Dung",
+              "path": "ky-nang/noi-dung/seo-content.md"
+            },
+            {
+              "text": "seo-content-gap — Phân Tích Khoảng Trống",
+              "path": "ky-nang/noi-dung/seo-content-gap.md"
+            },
+            {
+              "text": "seo-topical-authority — Quyền Lực Chủ Đề",
+              "path": "ky-nang/noi-dung/seo-topical-authority.md"
+            },
+            {
+              "text": "seo-entity — Entity & Knowledge Graph",
+              "path": "ky-nang/noi-dung/seo-entity.md"
+            }
+          ]
+        },
+        {
+          "text": "AI & GEO",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "ky-nang/ai-seo",
+              "isIndex": true
+            },
+            {
+              "text": "seo-geo — Tối Ưu AI Search",
+              "path": "ky-nang/ai-seo/seo-geo.md"
+            },
+            {
+              "text": "seo-answer — Tối Ưu Câu Trả Lời AI",
+              "path": "ky-nang/ai-seo/seo-answer.md"
+            },
+            {
+              "text": "seo-geo-monitor — Giám Sát GEO",
+              "path": "ky-nang/ai-seo/seo-geo-monitor.md"
+            },
+            {
+              "text": "seo-agentic — SEO Cho AI Agent",
+              "path": "ky-nang/ai-seo/seo-agentic.md"
+            },
+            {
+              "text": "seo-prompt-research — Nghiên Cứu Prompt AI",
+              "path": "ky-nang/ai-seo/seo-prompt-research.md"
+            }
+          ]
+        },
+        {
+          "text": "Nghiên Cứu",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "ky-nang/nghien-cuu",
+              "isIndex": true
+            },
+            {
+              "text": "seo-keyword — Từ Khóa",
+              "path": "ky-nang/nghien-cuu/seo-keyword.md"
+            },
+            {
+              "text": "seo-audience — Đối Tượng Mục Tiêu",
+              "path": "ky-nang/nghien-cuu/seo-audience.md"
+            },
+            {
+              "text": "seo-source-context — Ngữ Cảnh Nguồn",
+              "path": "ky-nang/nghien-cuu/seo-source-context.md"
+            },
+            {
+              "text": "seo-competitor-pages — Đối Thủ",
+              "path": "ky-nang/nghien-cuu/seo-competitor-pages.md"
+            }
+          ]
+        },
+        {
+          "text": "Off-Page",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "ky-nang/off-page",
+              "isIndex": true
+            },
+            {
+              "text": "seo-backlink — Backlink",
+              "path": "ky-nang/off-page/seo-backlink.md"
+            },
+            {
+              "text": "seo-authority — Uy Tín",
+              "path": "ky-nang/off-page/seo-authority.md"
+            },
+            {
+              "text": "seo-local — Local SEO",
+              "path": "ky-nang/off-page/seo-local.md"
+            }
+          ]
+        },
+        {
+          "text": "Thực Thi",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "ky-nang/thuc-thi",
+              "isIndex": true
+            },
+            {
+              "text": "seo-fix — Tự Động Sửa Lỗi",
+              "path": "ky-nang/thuc-thi/seo-fix.md"
+            },
+            {
+              "text": "seo-schema — Schema Markup",
+              "path": "ky-nang/thuc-thi/seo-schema.md"
+            },
+            {
+              "text": "seo-migration — Di Chuyển Website",
+              "path": "ky-nang/thuc-thi/seo-migration.md"
+            },
+            {
+              "text": "seo-programmatic — SEO Quy Mô Lớn",
+              "path": "ky-nang/thuc-thi/seo-programmatic.md"
+            },
+            {
+              "text": "seo-video — Video SEO",
+              "path": "ky-nang/thuc-thi/seo-video.md"
+            }
+          ]
+        },
+        {
+          "text": "Giám Sát",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "ky-nang/giam-sat",
+              "isIndex": true
+            },
+            {
+              "text": "seo-test — Tracking Thử Nghiệm",
+              "path": "ky-nang/giam-sat/seo-test.md"
+            },
+            {
+              "text": "seo-logs — Phân Tích Log",
+              "path": "ky-nang/giam-sat/seo-logs.md"
+            },
+            {
+              "text": "seo-google — Google APIs",
+              "path": "ky-nang/giam-sat/seo-google.md"
+            },
+            {
+              "text": "seo-maps — Maps Intelligence",
+              "path": "ky-nang/giam-sat/seo-maps.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Mở Rộng",
+      "items": [
+        {
+          "text": "Tổng Quan",
+          "path": "mo-rong",
+          "isIndex": true
+        },
+        {
+          "text": "DataForSEO",
+          "path": "mo-rong/dataforseo.md"
+        },
+        {
+          "text": "Ahrefs",
+          "path": "mo-rong/ahrefs.md"
+        },
+        {
+          "text": "Semrush",
+          "path": "mo-rong/semrush.md"
+        },
+        {
+          "text": "Banana Image Gen",
+          "path": "mo-rong/banana-image-gen.md"
+        }
+      ]
+    },
+    {
+      "text": "Kiến Trúc",
+      "items": [
+        {
+          "text": "Tổng Quan",
+          "path": "kien-truc",
+          "isIndex": true
+        },
+        {
+          "text": "Hệ Thống Kỹ Năng",
+          "path": "kien-truc/he-thong-ky-nang.md"
+        },
+        {
+          "text": "Hệ Thống Workflow",
+          "path": "kien-truc/he-thong-workflow.md"
+        },
+        {
+          "text": "Không Gian Dự Án",
+          "path": "kien-truc/khong-gian-du-an.md"
+        },
+        {
+          "text": "Tích Hợp MCP",
+          "path": "kien-truc/tich-hop-mcp.md"
+        },
+        {
+          "text": "Hệ Thống Mở Rộng",
+          "path": "kien-truc/he-thong-mo-rong.md"
+        }
+      ]
+    },
+    {
+      "text": "Server API",
+      "items": [
+        {
+          "text": "Tổng Quan",
+          "path": "server-api",
+          "isIndex": true
+        },
+        {
+          "text": "API Công Khai",
+          "path": "server-api/api-cong-khai.md"
+        },
+        {
+          "text": "API Quản Trị",
+          "path": "server-api/api-quan-tri.md"
+        }
+      ]
+    },
+    {
+      "text": "Xử Lý Sự Cố",
+      "path": "xu-ly-su-co.md"
+    },
+    {
+      "text": "Ghi Chú Phát Hành",
+      "path": "ghi-chu-phat-hanh.md"
+    }
+  ]
+}

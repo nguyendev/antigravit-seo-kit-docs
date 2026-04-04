@@ -1,0 +1,14 @@
+{
+  "Languages": [
+    {
+      "DisplayName": "Tiếng Việt",
+      "Code": "vi",
+      "IsDefault": true
+    },
+    {
+      "DisplayName": "English",
+      "Code": "en",
+      "IsDefault": false
+    }
+  ]
+}
