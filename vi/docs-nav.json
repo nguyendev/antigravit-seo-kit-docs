@@ -424,24 +424,6 @@
       ]
     },
     {
-      "text": "Server API",
-      "items": [
-        {
-          "text": "Tổng Quan",
-          "path": "server-api",
-          "isIndex": true
-        },
-        {
-          "text": "API Công Khai",
-          "path": "server-api/api-cong-khai.md"
-        },
-        {
-          "text": "API Quản Trị",
-          "path": "server-api/api-quan-tri.md"
-        }
-      ]
-    },
-    {
       "text": "Xử Lý Sự Cố",
       "path": "xu-ly-su-co.md"
     },

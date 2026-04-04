@@ -4,7 +4,8 @@
 
 Mỗi license key hỗ trợ tối đa **3 thiết bị** cùng lúc.
 
-Mua license tại: [https://antigravity-seokit.solann.io/](https://antigravity-seokit.solann.io/)
+- Mua license tại: [https://antigravityseokit.solann.io/](https://antigravityseokit.solann.io/)
+- Quản lý & gia hạn tại: [https://app.solann.io/](https://app.solann.io/)
 
 ## Kiểm Tra Trạng Thái
 

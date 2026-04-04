@@ -82,6 +82,8 @@ SEO Kit tuân theo tiêu chuẩn mở Agent Skills với kiến trúc 3 lớp (d
 
 Phiên bản hiện tại: **0.9.0**. Xem [Ghi chú phát hành](ghi-chu-phat-hanh.md) để theo dõi các thay đổi.
 
-## Mã Nguồn
+## Mua & Hỗ Trợ
 
-SEO Kit được phát triển bởi **nguyendev**. Xem [hướng dẫn đóng góp](dong-gop.md) nếu bạn muốn tham gia dự án.
+- Mua license: [antigravityseokit.solann.io](https://antigravityseokit.solann.io/)
+- Quản lý & gia hạn: [app.solann.io](https://app.solann.io/)
+- Hỗ trợ: support@solann.io

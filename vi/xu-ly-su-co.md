@@ -5,7 +5,7 @@
 ### "License key is expired or invalid"
 
 - Kiểm tra key lại tại `npx ag-seo-kit status`
-- Key hết hạn → gia hạn tại [antigravity-seokit.solann.io](https://antigravity-seokit.solann.io/)
+- Key hết hạn → gia hạn tại [app.solann.io](https://app.solann.io/)
 
 ### "Maximum devices reached (3/3)"
 
@@ -38,5 +38,5 @@
 
 ## Liên Hệ Hỗ Trợ
 
-- GitHub Issues: [github.com/nguyendev/SEOKit](https://github.com/nguyendev/SEOKit)
 - Email: support@solann.io
+- Quản lý license: [app.solann.io](https://app.solann.io/)

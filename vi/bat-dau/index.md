@@ -15,7 +15,7 @@ Antigravity SEO Kit là bộ công cụ phân tích SEO chuyên nghiệp gồm *
 npx ag-seo-kit install --key=SK-XXXX-XXXX-XXXX
 ```
 
-> Mua license key tại: [https://antigravity-seokit.solann.io/](https://antigravity-seokit.solann.io/)
+> Mua license key tại: [https://antigravityseokit.solann.io/](https://antigravityseokit.solann.io/)
 
 ## Bước Tiếp Theo
 
