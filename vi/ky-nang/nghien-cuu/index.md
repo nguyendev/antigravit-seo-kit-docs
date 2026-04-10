@@ -1,8 +1,8 @@
-# Nghiên Cứu
+﻿# Nghien Cuu
 
-| Kỹ năng | Mô tả | Workflow |
-|---------|-------|---------|
-| [seo-keyword](seo-keyword.md) | Nghiên cứu từ khóa, clustering, intent | `/seo-research` |
-| [seo-audience](seo-audience.md) | Audience personas, journey mapping | `/seo-onboard`, `/seo-research` |
-| [seo-source-context](seo-source-context.md) | Brand identity, Semantic Anchor | `/seo-onboard` |
-| [seo-competitor-pages](seo-competitor-pages.md) | Phân tích trang đối thủ | `/seo-strategy` |
+| Ky nang | Mo ta |
+|---------|-------|
+| [seo-keyword](seo-keyword.md) | Tu khoa, volume, difficulty, clustering |
+| [seo-audience](seo-audience.md) | Audience personas, journey mapping |
+| [seo-source-context](seo-source-context.md) | Brand identity, Semantic Anchor, E-E-A-T |
+| [seo-competitor-pages](seo-competitor-pages.md) | Phan tich trang doi thu |

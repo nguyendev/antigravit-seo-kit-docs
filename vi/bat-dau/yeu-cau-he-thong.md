@@ -2,34 +2,19 @@
 
 ## Bắt Buộc
 
-| Thành phần | Phiên bản | Ghi chú |
-|------------|-----------|---------|
-| **Node.js** | ≥ 18 | Cho CLI installer (`npx ag-seo-kit`) |
-| **Python** | ≥ 3.11 | Cho các script phân tích |
-| **Google Antigravity** | Mới nhất | Hoặc nền tảng AI agent tương thích |
+| Yêu cầu | Phiên bản |
+|----------|-----------|
+| [Google Antigravity](https://deepmind.google/technologies/antigravity/) | Latest |
+| Node.js | ≥ 18 |
+| Python | ≥ 3.11 |
+| License Key | Mua tại [antigravityseokit.solann.io](https://antigravityseokit.solann.io/) |
 
-## Tùy Chọn
+## Tùy Chọn (Nâng Cao)
 
-| Thành phần | Mục đích |
-|------------|----------|
-| **Playwright** | Chụp ảnh màn hình website |
-| **Google API Keys** | Dữ liệu PageSpeed Insights, Search Console, CrUX |
+| Yêu cầu | Mục đích |
+|----------|----------|
+| Google API Credentials | Truy cập GSC, CrUX, GA4 (Tier 1-3) |
+| DataForSEO API | Dữ liệu SERP, từ khóa, backlinks trực tiếp |
+| Ahrefs / Semrush API | Backlink, keyword data nâng cao |
 
-## Kiểm Tra Phiên Bản
-
-```bash
-# Kiểm tra Node.js
-node --version
-
-# Kiểm tra Python
-python --version
-
-# Kiểm tra pip
-pip --version
-```
-
-## Hệ Điều Hành Hỗ Trợ
-
-- **Windows** 10/11 (PowerShell 5.1+)
-- **macOS** 12+ (Monterey)
-- **Linux** (Ubuntu 20.04+, Debian 11+)
+> **Không có API keys?** SEO Kit vẫn hoạt động bình thường ở chế độ HTML-only (Tier 0). API keys chỉ làm giàu thêm dữ liệu.

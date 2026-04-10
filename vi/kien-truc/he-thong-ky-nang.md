@@ -1,39 +1,19 @@
-# Hệ Thống Kỹ Năng (Skills)
+# Hệ Thống Kỹ Năng
 
-## Cấu Trúc Một Skill
+Mỗi kỹ năng là một thư mục trong `.agent/skills/` chứa SKILL.md và scripts.
+
+## Cấu trúc
 
 ```
 .agent/skills/seo-{name}/
-├── SKILL.md              ← File chính (YAML frontmatter + instructions)
-├── references/           ← Tài liệu tham khảo (load khi cần)
-│   └── *.md
-├── scripts/              ← Python automation scripts
-│   └── *.py
-└── schema/               ← JSON-LD templates (nếu có)
-    └── *.json
+├── SKILL.md           # Hướng dẫn chi tiết cho AI
+├── scripts/           # Python scripts thực thi
+└── assets/            # Templates, data mẫu
 ```
 
-## SKILL.md Format
+## Cách hoạt động
 
-```yaml
----
-name: seo-{name}
-description: >
-  Khi nào sử dụng skill này.
-  Keywords kích hoạt và use cases.
----
-
-# Hướng dẫn chi tiết
-```
-
-## Nguyên Tắc
-
-1. **Progressive Disclosure**: SKILL.md ngắn gọn. Reference files tải bổ sung khi cần thiết.
-2. **Self-Contained**: Mỗi skill có thể chạy độc lập, không phụ thuộc skill khác.
-3. **Composable**: Workflows compose nhiều skills lại với nhau.
-4. **Anti-Hallucination**: Mọi output phải tag nguồn dữ liệu (`[FETCHED]`, `[VERIFIED]`, `[INFERRED]`, `[TEMPLATE]`).
-
-## Truy Cập
-
-- **Qua workflow**: Tự động kích hoạt bởi lifecycle workflows
-- **Trực tiếp**: "Run seo-entity for example.com" (không đổi phase)
+1. Workflow đọc `SKILL.md` để hiểu kỹ năng
+2. AI agent thực thi theo instructions
+3. Scripts hỗ trợ tính toán và phân tích
+4. Kết quả lưu vào domain project folder

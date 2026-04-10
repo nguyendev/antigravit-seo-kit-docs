@@ -1,79 +1,88 @@
-# Cài Đặt
+# Cài Đặt Chi Tiết
 
-## Cài Đặt Nhanh (Khuyến Nghị)
+Hướng dẫn từng bước cài đặt Antigravity SEO Kit, bao gồm cài Antigravity, tạo project, và kích hoạt SEO Kit.
 
-```bash
-npx ag-seo-kit install --key=SK-XXXX-XXXX-XXXX
-```
+## Bước 1: Cài Đặt Google Antigravity
 
-Lệnh này tự động:
-- Tải SEO Kit vào workspace hiện tại
-- Xác thực license key
-- Kích hoạt thiết bị (tối đa 3 thiết bị/license)
-- Cài đặt các file skill vào `.agent/skills/`
+Antigravity là nền tảng AI agent của Google DeepMind. SEO Kit chạy bên trong Antigravity.
 
-## Cài Đặt Thủ Công
+1. Truy cập [deepmind.google/technologies/antigravity](https://deepmind.google/technologies/antigravity/)
+2. Tải và cài đặt Antigravity cho hệ điều hành của bạn (Windows, macOS, Linux)
+3. Đăng nhập bằng tài khoản Google
 
-### Bước 1: Cài đặt package
+## Bước 2: Tạo Project Mới Trong Antigravity
 
-```bash
-npx ag-seo-kit install --key=SK-XXXX-XXXX-XXXX
-```
+Sau khi cài đặt Antigravity, bạn cần tạo một **project** (dự án) để chứa SEO Kit:
 
-### Bước 2: Cài đặt Python dependencies
+1. Mở Antigravity
+2. Nhấn **"Open Folder"** (Nên tạo thư mục trống và mở thư mục đó)
 
-```bash
-pip install -r requirements.txt
-```
+> 📁 **Ghi nhớ**: Đây là thư mục gốc mà SEO Kit sẽ tạo file `seo-projects/` bên trong.
 
-### Bước 3: (Tùy chọn) Cài đặt Google API dependencies
+## Bước 3: Mở Terminal Trong Antigravity
 
-```bash
-pip install -r requirements-google.txt
-```
+Antigravity có **terminal tích hợp** để chạy lệnh:
 
-### Bước 4: (Tùy chọn) Cài đặt Playwright
+1. Trong giao diện Antigravity, tìm phần **Terminal** (thường ở phía dưới)
+2. Hoặc sử dụng phím tắt (thường là `` Ctrl+` `` hoặc `Cmd+J` trên macOS)
+3. Terminal sẽ mở ra với đường dẫn đến thư mục project của bạn
+
+## Bước 4: Cài Đặt SEO Kit
+
+Trong terminal Antigravity, chạy lệnh:
 
 ```bash
-pip install playwright && playwright install chromium
+npx antigravity-seo-kit install --key=SK-XXXX-XXXX-XXXX
 ```
 
-### Bước 5: Mở workspace trong Google Antigravity
+Thay `SK-XXXX-XXXX-XXXX` bằng license key bạn đã mua tại [antigravityseokit.solann.io](https://antigravityseokit.solann.io/).
 
-Agent sẽ tự động phát hiện:
-- Skills trong `.agent/skills/`
-- Workflows trong `.agent/workflows/`
-- Agent instructions trong `.agent/agent.md`
+### Quá trình tự động:
 
-## Cấu Trúc Sau Cài Đặt
+SEO Kit sẽ:
+1. ✅ Xác thực license key
+2. ✅ Tải và cài đặt skills vào thư mục `.agent/skills/`
+3. ✅ Cài đặt workflows vào `.agent/workflows/`
+4. ✅ Cấu hình rules vào `.agent/rules/`
+5. ✅ Kích hoạt thiết bị (mỗi license sẽ cho phép dùng tối đa số thiết bị tương ứng)
 
-| Thành phần | Đường dẫn |
-|------------|-----------|
-| Agent config | `.agent/agent.md` |
-| Main skill | `.agent/skills/seo/SKILL.md` |
-| Sub-skills | `.agent/skills/seo-*/SKILL.md` |
-| Workflows | `.agent/workflows/seo-*.md` |
-| References | `.agent/skills/seo/references/` |
-| Scripts | `.agent/skills/seo/scripts/` |
-| Schema templates | `.agent/skills/seo/schema/` |
+### Xác nhận cài đặt:
 
-## Xác Minh Cài Đặt
+```bash
+npx antigravity-seo-kit status
+```
 
-1. Mở workspace trong Antigravity
-2. Agent liệt kê 35 SEO skills khả dụng
-3. Chạy lệnh master:
-   ```
-   /seo-run yourdomain.com
-   ```
+Kết quả mẫu:
+
+```
+✅ Antigravity SEO Kit v1.0.0
+License: SK-****-****-XXXX (valid until 2027-04-01)
+Devices: 1/3 active
+Skills: 44 loaded
+Workflows: 11 loaded
+Rules: 7 loaded
+```
+
+## Bước 5: Bắt Đầu Sử Dụng
+
+Sau khi cài đặt thành công, bạn sử dụng SEO Kit bằng cách **chat** với AI agent trong Antigravity. Không cần mở terminal nữa — chỉ cần gõ lệnh vào khung chat:
+
+```
+/seo-run yourdomain.com
+```
+
+SEO Kit sẽ tự phát hiện đây là dự án mới và hướng dẫn bạn từng bước.
+
+> 💡 **Xem tiếp**: [Dự án đầu tiên](du-an-dau-tien.md) để được hướng dẫn chi tiết cách setup dự án SEO đầu tiên.
 
 ## Cập Nhật
 
 ```bash
-npx ag-seo-kit update
+npx antigravity-seo-kit update
 ```
 
 ## Gỡ Cài Đặt
 
 ```bash
-npx ag-seo-kit uninstall --confirm
+npx antigravity-seo-kit uninstall --confirm
 ```

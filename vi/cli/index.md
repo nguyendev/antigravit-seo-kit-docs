@@ -1,13 +1,18 @@
 # CLI
 
-SEO Kit cung cấp CLI tool `ag-seo-kit` để quản lý cài đặt, license, và thiết bị.
+SEO Kit được điều khiển bằng các lệnh slash trong Antigravity chat.
 
-## Cài Đặt
+## Cài Đặt & Quản Lý
 
-```bash
-npx ag-seo-kit install --key=SK-XXXX-XXXX-XXXX
-```
+| Lệnh | Mô tả |
+|------|-------|
+| `npx ag-seo-kit install --key=...` | Cài đặt SEO Kit |
+| `npx ag-seo-kit status` | Kiểm tra trạng thái |
+| `npx ag-seo-kit update` | Cập nhật |
+| `npx ag-seo-kit devices` | Quản lý thiết bị |
 
-## Tất Cả Lệnh
+## Workflows
 
-Xem [Danh sách lệnh đầy đủ](lenh.md).
+Xem [Danh sách lệnh](lenh.md) để biết toàn bộ.
+
+> 💡 Bạn gõ lệnh trực tiếp trong khung chat của Antigravity, không cần terminal.

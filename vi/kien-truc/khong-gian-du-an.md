@@ -1,54 +1,29 @@
-# Không Gian Dự Án (Domain Workspaces)
+# Không Gian Dự Án
 
-## Cấu Trúc
+Mỗi domain tạo một thư mục dự án riêng.
 
-Mỗi domain tạo một workspace riêng biệt:
+## Cấu trúc
 
 ```
-seo-projects/
-├── example-com/               ← Domain workspace
-│   ├── project.json           ← State, config, history
-│   ├── competitors.json       ← Cached competitors
-│   ├── reports/               ← Markdown reports
-│   │   ├── onboard-{date}.md
-│   │   ├── audit-{date}.md
-│   │   ├── strategy-{date}.md
-│   │   └── monitor-{date}.md
-│   ├── data/                  ← Machine-readable data
-│   │   ├── audit-{date}.json
-│   │   ├── keywords-{date}.json
-│   │   ├── clusters-{date}.json
-│   │   └── backlink-{date}.json
-│   └── fixes/                 ← Generated fix files
-│       └── {date}/
-│           ├── meta-tags.html
-│           ├── schema-jsonld/
-│           └── robots.txt
-└── another-site-org/          ← Another domain
-    └── ...
+seo-projects/{domain-slug}/
+├── project.json           # Trạng thái, cấu hình, lịch sử
+├── competitors.json       # Đối thủ đã cache
+├── reports/               # Báo cáo markdown
+├── data/                  # Dữ liệu JSON (máy đọc)
+├── fixes/                 # File sửa lỗi (Phase 4)
+└── screenshots/           # Ảnh chụp
 ```
+
+## Domain Slug
+
+- `example.com` → `example-com`
+- `www.example.com` → `example-com` (strip www)
+- `shop.example.co.uk` → `shop-example-co-uk`
 
 ## project.json
 
-```json
-{
-  "domain": "example.com",
-  "slug": "example-com",
-  "phase": "audited",
-  "health_score": 72,
-  "industry": "SaaS",
-  "settings": {
-    "google_api_tier": 2
-  },
-  "competitors": ["comp1.com", "comp2.com"],
-  "phase_history": [],
-  "runs": []
-}
-```
+Chứa toàn bộ thông tin dự án: domain, phase, health score, settings, source context, competitors, run history.
 
-## Quy Tắc
+## 💡 Mẹo
 
-- Mỗi domain = 1 workspace
-- Slug tự tạo từ domain (`.` → `-`, strip `www`)
-- Data files dùng date suffix cho versioning
-- Reports giữ lại lịch sử (không overwrite)
+Tạo **conversation mới** trong Antigravity cho mỗi domain để tránh nhầm lẫn context.

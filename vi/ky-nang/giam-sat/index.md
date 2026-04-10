@@ -1,8 +1,11 @@
-# Giám Sát
+﻿# Giam Sat
 
-| Kỹ năng | Mô tả | Workflow |
-|---------|-------|---------|
-| [seo-test](seo-test.md) | SEO experiment tracking (A/B) | `/seo-monitor` |
-| [seo-logs](seo-logs.md) | Server log analysis, crawl budget | `/seo-monitor` |
-| [seo-google](seo-google.md) | Google APIs (GSC, PageSpeed, CrUX, GA4) | `/seo-onboard`, `/seo-audit`, `/seo-monitor` |
-| [seo-maps](seo-maps.md) | Maps intelligence, geo-grid | `/seo-local-suite` |
+| Ky nang | Mo ta |
+|---------|-------|
+| [seo-test](seo-test.md) | A/B test, experiment tracking |
+| [seo-logs](seo-logs.md) | Server log analysis |
+| [seo-google](seo-google.md) | GSC, CrUX, GA4, PageSpeed |
+| [seo-maps](seo-maps.md) | Geo-grid, Maps intelligence |
+| [seo-brand-sentiment](seo-brand-sentiment.md) | LLM bias, community sentiment |
+| [seo-reddit-scraper](seo-reddit-scraper.md) | Reddit/Quora monitoring |
+| [seo-image-gen](seo-image-gen.md) | AI-generated SEO images |

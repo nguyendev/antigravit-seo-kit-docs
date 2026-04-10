@@ -17,8 +17,8 @@
           "path": "bat-dau/cai-dat.md"
         },
         {
-          "text": "Audit Đầu Tiên",
-          "path": "bat-dau/audit-dau-tien.md"
+          "text": "Dự Án Đầu Tiên",
+          "path": "bat-dau/du-an-dau-tien.md"
         },
         {
           "text": "Quản Lý License",
@@ -63,6 +63,14 @@
           "path": "workflows/seo-monitor.md"
         },
         {
+          "text": "/seo-llm-visibility — GEO: AI Search",
+          "path": "workflows/seo-llm-visibility.md"
+        },
+        {
+          "text": "/seo-social-commerce — Social Commerce",
+          "path": "workflows/seo-social-commerce.md"
+        },
+        {
           "text": "/seo-local-suite — Local SEO",
           "path": "workflows/seo-local-suite.md"
         },
@@ -82,74 +90,13 @@
         },
         {
           "text": "Audit Cơ Bản",
-          "isLazyExpandable": true,
           "path": "huong-dan/audit-co-ban",
-          "items": [
-            {
-              "text": "Tổng Quan",
-              "path": "huong-dan/audit-co-ban",
-              "isIndex": true,
-              "isInSeries": true
-            },
-            {
-              "text": "1: Onboarding Dự Án",
-              "path": "huong-dan/audit-co-ban/phan-01.md",
-              "isInSeries": true
-            },
-            {
-              "text": "2: Chạy Audit",
-              "path": "huong-dan/audit-co-ban/phan-02.md",
-              "isInSeries": true
-            },
-            {
-              "text": "3: Đọc Kết Quả",
-              "path": "huong-dan/audit-co-ban/phan-03.md",
-              "isInSeries": true
-            }
-          ]
+          "isIndex": true
         },
         {
           "text": "Vòng Đời Đầy Đủ (5 Phase)",
-          "isLazyExpandable": true,
           "path": "huong-dan/vong-doi-day-du",
-          "items": [
-            {
-              "text": "Tổng Quan",
-              "path": "huong-dan/vong-doi-day-du",
-              "isIndex": true,
-              "isInSeries": true
-            },
-            {
-              "text": "1: Onboard — Khởi Tạo Dự Án",
-              "path": "huong-dan/vong-doi-day-du/phan-01.md",
-              "isInSeries": true
-            },
-            {
-              "text": "2: Research — Nghiên Cứu",
-              "path": "huong-dan/vong-doi-day-du/phan-02.md",
-              "isInSeries": true
-            },
-            {
-              "text": "3: Audit — Kiểm Tra Toàn Diện",
-              "path": "huong-dan/vong-doi-day-du/phan-03.md",
-              "isInSeries": true
-            },
-            {
-              "text": "4: Strategy — Chiến Lược",
-              "path": "huong-dan/vong-doi-day-du/phan-04.md",
-              "isInSeries": true
-            },
-            {
-              "text": "5: Execute — Thực Thi",
-              "path": "huong-dan/vong-doi-day-du/phan-05.md",
-              "isInSeries": true
-            },
-            {
-              "text": "6: Monitor — Giám Sát",
-              "path": "huong-dan/vong-doi-day-du/phan-06.md",
-              "isInSeries": true
-            }
-          ]
+          "isIndex": true
         }
       ]
     },
@@ -256,8 +203,16 @@
               "path": "ky-nang/ai-seo/seo-agentic.md"
             },
             {
-              "text": "seo-prompt-research — Nghiên Cứu Prompt AI",
+              "text": "seo-prompt-research — Nghiên Cứu Prompt",
               "path": "ky-nang/ai-seo/seo-prompt-research.md"
+            },
+            {
+              "text": "seo-fan-out-generator — RAG Sub-queries",
+              "path": "ky-nang/ai-seo/seo-fan-out-generator.md"
+            },
+            {
+              "text": "seo-llmstxt — LLMs.txt Generator",
+              "path": "ky-nang/ai-seo/seo-llmstxt.md"
             }
           ]
         },
@@ -336,6 +291,14 @@
             {
               "text": "seo-video — Video SEO",
               "path": "ky-nang/thuc-thi/seo-video.md"
+            },
+            {
+              "text": "seo-visual-search — Visual Search",
+              "path": "ky-nang/thuc-thi/seo-visual-search.md"
+            },
+            {
+              "text": "seo-citemet — AI Share Buttons",
+              "path": "ky-nang/thuc-thi/seo-citemet.md"
             }
           ]
         },
@@ -362,6 +325,40 @@
             {
               "text": "seo-maps — Maps Intelligence",
               "path": "ky-nang/giam-sat/seo-maps.md"
+            },
+            {
+              "text": "seo-brand-sentiment — Brand Sentiment",
+              "path": "ky-nang/giam-sat/seo-brand-sentiment.md"
+            },
+            {
+              "text": "seo-reddit-scraper — Reddit/Quora",
+              "path": "ky-nang/giam-sat/seo-reddit-scraper.md"
+            },
+            {
+              "text": "seo-image-gen — AI Image Generation",
+              "path": "ky-nang/giam-sat/seo-image-gen.md"
+            }
+          ]
+        },
+        {
+          "text": "Vietnam Market",
+          "items": [
+            {
+              "text": "Tổng Quan",
+              "path": "ky-nang/vn-market",
+              "isIndex": true
+            },
+            {
+              "text": "seo-social-zalo — Zalo OA",
+              "path": "ky-nang/vn-market/seo-social-zalo.md"
+            },
+            {
+              "text": "seo-coccoc-optimizer — Cốc Cốc AI",
+              "path": "ky-nang/vn-market/seo-coccoc-optimizer.md"
+            },
+            {
+              "text": "seo-video-transcript — Video Transcript",
+              "path": "ky-nang/vn-market/seo-video-transcript.md"
             }
           ]
         }

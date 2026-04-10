@@ -1,82 +1,51 @@
-# /seo-audit — Phase 2: Kiểm Tra Toàn Diện
+# /seo-audit — Phase 2: Kiểm Tra
 
-## Tổng Quan
+Kiểm tra toàn diện website với 9 kỹ năng song song. Health Score 0-100.
 
-Quét chẩn đoán toàn diện website. Kích hoạt các kỹ năng chuyên biệt song song để kiểm tra sức khỏe kỹ thuật, chất lượng nội dung, schema, hình ảnh, sitemap, SEO đa ngôn ngữ, và độ sẵn sàng AI search. Tạo Health Score (0-100) và kế hoạch hành động ưu tiên.
-
-## Cách Sử Dụng
+## Cách sử dụng
 
 ```
-/seo-audit https://example.com
+/seo-audit yourdomain.com --scope priority
 ```
 
-## Kỹ Năng Kích Hoạt (tối đa 9)
+## Scope Control
 
-| # | Kỹ năng | Vai trò | Điều kiện |
-|---|---------|---------|-----------|
-| 1 | `seo-technical` | Crawlability, indexability, bảo mật, CWV, JS rendering, IndexNow | Luôn |
-| 2 | `seo-content` | E-E-A-T scoring, readability, thin content | Luôn |
-| 3 | `seo-schema` | Schema.org detection, validation, deprecation check | Luôn |
-| 4 | `seo-sitemap` | XML sitemap quality, coverage | Luôn |
-| 5 | `seo-images` | Alt text, file sizes, formats, lazy loading, CLS | Luôn |
-| 6 | `seo-hreflang` | Hreflang validation, SEO đa ngôn ngữ | Luôn |
-| 7 | `seo-geo` | AI crawler access, citability, agentic search readiness | Luôn |
-| 8 | `seo-google` | CWV field data, indexation status (PageSpeed, CrUX) | Nếu có API credentials |
-| 9 | `seo-local` | GBP, NAP, citations, reviews, local schema | Nếu phát hiện local business |
+| Scope | Mô tả | Mặc định |
+|-------|-------|----------|
+| `homepage` | Chỉ trang chủ | Nếu không có priority pages |
+| `priority` | Homepage + priority pages | ✅ Mặc định |
+| `full` | Tất cả internal links (tối đa 50) | Audit sâu |
 
-## Health Score (0-100)
+## Kỹ Năng Kích Hoạt (9)
+
+| Kỹ năng | Luôn chạy? |
+|---------|------------|
+| `seo-technical` | ✅ |
+| `seo-content` | ✅ |
+| `seo-schema` | ✅ |
+| `seo-sitemap` | ✅ |
+| `seo-images` | ✅ |
+| `seo-hreflang` | ✅ |
+| `seo-geo` | ✅ |
+| `seo-google` | Nếu có API credentials |
+| `seo-local` | Nếu local business |
+
+## Health Score Weights
 
 | Danh mục | Trọng số |
 |----------|----------|
 | Technical SEO | 22% |
 | Content Quality | 23% |
 | On-Page SEO | 20% |
-| Schema / Structured Data | 10% |
+| Schema | 10% |
 | Performance (CWV) | 10% |
 | AI Search Readiness | 10% |
 | Images | 5% |
 
-## Luồng Xử Lý
+> Trọng số tự điều chỉnh theo `primary_goal` và `industry`.
 
-```
-/seo-audit example.com
-    │
-    ▼
-┌─────────────────┐
-│   seo-audit      │  ← Phase workflow
-└────────┬─────────┘
-         │  Kích hoạt 9 kỹ năng
-    ┌────┴────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┐
-    ▼         ▼        ▼        ▼        ▼        ▼        ▼        ▼        ▼
-┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐
-│tech   │ │content│ │schema │ │sitemap│ │images │ │hreflang│ │geo    │ │google │
-└───┬───┘ └───┬───┘ └───┬───┘ └───┬───┘ └───┬───┘ └───┬───┘ └───┬───┘ └───┬───┘
-    └─────────┴────────┴────┬───┴────────┴────────┴────────┴────────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │  Tổng hợp     │
-                    │  Health Score │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │  Phase:       │  ← phase: "audited"
-                    │  "audited"    │
-                    └───────────────┘
-```
+## Kết quả
 
-## Output
-
-```
-seo-projects/{domain-slug}/
-├── reports/
-│   ├── audit-{date}.md
-│   └── action-plan-{date}.md
-└── data/
-    └── audit-{date}.json
-```
-
-## Gợi Ý Tiếp
-
-"Audit hoàn tất (Score: XX/100). Chạy `/seo-strategy` hoặc `/seo-run` để lên chiến lược nội dung & thị trường."
+- Health Score + Action Plan (Critical → Low)
+- Delta tracking so với audit trước
+- Phase: `audited`

@@ -1,44 +1,15 @@
 # /seo-page — Phân Tích Trang Đơn
 
-## Tổng Quan
+Phân tích on-page SEO cho một URL cụ thể.
 
-Phân tích chuyên sâu MỘT trang web. Đây là tiện ích độc lập, **KHÔNG** ảnh hưởng giai đoạn vòng đời dự án. Sử dụng khi cần kiểm tra nhanh một URL cụ thể mà không cần chạy audit toàn site.
-
-## Cách Sử Dụng
+## Cách sử dụng
 
 ```
-/seo-page https://example.com/about
+/seo-page https://yourdomain.com/pricing
 ```
 
 ## Kỹ Năng Kích Hoạt (4)
 
-| # | Kỹ năng | Vai trò |
-|---|---------|---------|
-| 1 | `seo-page` | On-page SEO elements, title, meta, headings, URL, internal links |
-| 2 | `seo-content` | E-E-A-T scoring, readability, word count, keyword optimization |
-| 3 | `seo-schema` | Schema detection, validation, generation cho trang này |
-| 4 | `seo-geo` | AI citability score, passage extractability |
+Kết hợp các kỹ năng on-page: title, meta, headings, schema, internal links, content quality, images.
 
-## Các Bước Thực Hiện
-
-1. **Load domain project**
-2. **Fetch URL** và phân tích HTML source
-3. **On-page SEO analysis**:
-   - Title tag, meta description, heading hierarchy
-   - URL structure, internal links, anchor text
-   - Canonical, meta robots, Open Graph, Twitter Card
-4. **Content quality assessment**: E-E-A-T signals, readability metrics
-5. **Schema validation**: Detect, validate, recommend missing schema
-6. **AI citability check**: Score citability, passage extractability
-7. **Flag potential CWV issues**
-8. **Page Score Card**: Binary checks ("✅ Has H1" / "❌ Missing alt text")
-
-## Output
-
-```
-seo-projects/{domain-slug}/reports/page-{slug}-{date}.md
-```
-
-## Lưu Ý
-
-Workflow này **KHÔNG** cập nhật project `phase`. Là tiện ích cho phân tích page-level nhanh tại bất kỳ thời điểm nào trong vòng đời SEO.
+> **Tiện ích**: KHÔNG thay đổi `phase`.

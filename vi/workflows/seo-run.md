@@ -1,73 +1,34 @@
 # /seo-run — Master Orchestrator
 
-## Tổng Quan
+Lệnh duy nhất bạn cần nhớ. Tự phát hiện giai đoạn hiện tại và đề xuất bước tiếp.
 
-Đây là **lệnh duy nhất bạn cần nhớ**. `/seo-run` đọc `project.json` của domain, xác định giai đoạn hiện tại trong vòng đời SEO, hiển thị dashboard trạng thái, và đề xuất hành động tiếp theo.
-
-**Không bao giờ tự động thực thi** — luôn chờ duyệt từ người dùng.
-
-## Cách Sử Dụng
+## Cách sử dụng
 
 ```
-/seo-run example.com
+/seo-run yourdomain.com
 ```
 
 ## State Machine
 
-```
-project.json NOT found     → Gợi ý: /seo-onboard
-phase = "onboarded"        → Gợi ý: /seo-research (hoặc /seo-audit)
-phase = "researched"       → Gợi ý: /seo-audit
-phase = "audited"          → Gợi ý: /seo-strategy
-phase = "strategized"      → Gợi ý: /seo-execute
-phase = "executed"         → Gợi ý: /seo-monitor
-phase = "monitoring"       → Dashboard, gợi ý re-audit
-```
+| Trạng thái | Đề xuất |
+|------------|---------|
+| Chưa có project | → `/seo-onboard` |
+| `greenfield` (domain chưa live) | → `/seo-research` hoặc `/seo-strategy` |
+| `onboarded` | → `/seo-research` (hoặc `/seo-audit` nếu bỏ qua) |
+| `researched` | → `/seo-audit` |
+| `audited` | → `/seo-strategy` |
+| `strategized` | → `/seo-execute` |
+| `executed` | → `/seo-monitor` |
+| `monitoring` | → Dashboard + đề xuất re-audit |
 
-## Các Bước Thực Hiện
+## Routing Thông Minh (2026)
 
-1. **Phân tích domain** từ input (loại bỏ protocol, www, trailing path)
-2. **Kiểm tra dự án**: Tìm `seo-projects/{domain-slug}/project.json`
-   - Không tìm thấy → "Phát hiện dự án mới" → gợi ý `/seo-onboard`
-3. **Đọc project.json** và lấy trường `phase`
-4. **Hiển thị Status Dashboard**:
-   ```markdown
-   ## 📊 SEO Project: {domain}
+Nếu user đề cập **AI Search / ChatGPT / GEO** → route sang `/seo-llm-visibility`.
 
-   | Trường | Giá trị |
-   |--------|---------|
-   | **Phase** | {phase} ({emoji}) |
-   | **Health Score** | {score}/100 |
-   | **Lần chạy cuối** | {date} |
-   | **Ngành** | {industry} |
-   | **Tổng số lần chạy** | {count} |
-   ```
-5. **Đề xuất bước tiếp** (KHÔNG tự thực thi):
-   ```markdown
-   ### 🎯 Bước Tiếp Theo Khuyến Nghị
-   **→ /seo-{next-phase}** — {mô tả}
-   Kích hoạt {N} kỹ năng: {danh sách}
-   **Tiếp tục?** (có / không / nhảy đến phase cụ thể)
-   ```
-6. **Chờ duyệt**:
-   - "có" / "proceed" / "tiếp" → ủy quyền cho workflow tương ứng
-   - "skip to {phase}" → nhảy đến phase đó
-   - "không" → dừng
+Nếu user đề cập **Zalo / TikTok / Shopee** → route sang `/seo-social-commerce`.
 
-## Phase Emojis
+## Quy tắc
 
-| Phase | Emoji | Mô tả |
-|-------|-------|-------|
-| (mới) | 🆕 | Dự án chưa tạo |
-| onboarded | 📋 | Setup xong, sẵn sàng nghiên cứu/audit |
-| researched | 🔎 | Nghiên cứu xong, sẵn sàng audit |
-| audited | 🔍 | Audit xong, sẵn sàng chiến lược |
-| strategized | 🧠 | Chiến lược xong, sẵn sàng thực thi |
-| executed | ⚡ | Sửa lỗi xong, sẵn sàng giám sát |
-| monitoring | 📈 | Đang theo dõi hiệu quả |
-
-## Quy Tắc
-
-- KHÔNG BAO GIỜ tự thực thi phase mà không có duyệt từ người dùng
-- Luôn hiển thị dashboard trước khi đề xuất
-- Nếu project không có trường `phase` (legacy) → coi như "onboarded"
+- **KHÔNG BAO GIỜ** tự chạy phase mà chưa được duyệt
+- Luôn hiển thị dashboard trạng thái trước khi đề xuất
+- User có thể nhảy sang phase bất kỳ bằng lệnh trực tiếp

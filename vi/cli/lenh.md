@@ -1,53 +1,32 @@
-# Danh Sách Lệnh CLI
+# Danh Sách Lệnh
 
-## Quản Lý Cài Đặt
+## Lifecycle Workflows
 
-```bash
-# Cài đặt SEO Kit với license key
-npx ag-seo-kit install --key=SK-XXXX-XXXX-XXXX
-
-# Cập nhật lên phiên bản mới nhất
-npx ag-seo-kit update
-
-# Kiểm tra trạng thái cài đặt
-npx ag-seo-kit status
-
-# Gỡ cài đặt
-npx ag-seo-kit uninstall --confirm
-```
-
-## Quản Lý Thiết Bị
-
-```bash
-# Xem danh sách thiết bị đã kích hoạt
-npx ag-seo-kit devices
-
-# Xóa thiết bị để giải phóng slot
-npx ag-seo-kit devices remove <deviceId>
-```
-
-## SEO Workflows (trong Antigravity)
-
-Các lệnh này chạy bên trong nền tảng Google Antigravity:
-
-| Lệnh | Giai Đoạn | Mục Đích |
-|------|-----------|----------|
+| Lệnh | Phase | Mô tả |
+|------|-------|-------|
 | `/seo-run <domain>` | Master | Tự phát hiện phase, đề xuất bước tiếp |
-| `/seo-onboard <domain>` | Phase 1 | Khởi tạo dự án |
-| `/seo-research <domain>` | Research | Nghiên cứu từ khóa, audience, prompts |
-| `/seo-audit <domain>` | Phase 2 | Kiểm tra toàn diện website |
-| `/seo-strategy <domain>` | Phase 3 | Chiến lược nội dung & thị trường |
-| `/seo-execute <domain>` | Phase 4 | Tạo bản sửa lỗi |
-| `/seo-monitor <domain>` | Phase 5 | Giám sát & đo lường |
-| `/seo-local-suite <domain>` | Đặc biệt | Local SEO chuyên sâu |
-| `/seo-page <url>` | Tiện ích | Phân tích trang đơn |
+| `/seo-onboard <domain>` | Phase 1 | Khởi tạo dự án, brand identity |
+| `/seo-research <domain>` | Research | Từ khóa, audience, prompt patterns |
+| `/seo-audit <domain>` | Phase 2 | Kiểm tra toàn diện, Health Score |
+| `/seo-strategy <domain>` | Phase 3 | Chiến lược, roadmap 30/60/90 |
+| `/seo-execute <domain>` | Phase 4 | Generate code fixes, content |
+| `/seo-monitor <domain>` | Phase 5 | Giám sát, A/B test |
 
-## Truy Cập Kỹ Năng Trực Tiếp
+## Deep-dive Workflows
+
+| Lệnh | Mô tả |
+|------|-------|
+| `/seo-llm-visibility <domain>` | GEO: AI SOV, fan-out, brand sentiment |
+| `/seo-social-commerce <domain>` | Zalo, TikTok, Visual Search (VN market) |
+| `/seo-local-suite <domain>` | Local SEO: GBP, Maps |
+| `/seo-page <url>` | On-page analysis trang đơn |
+
+## Truy Cập Trực Tiếp Kỹ Năng
+
+Bạn có thể gọi trực tiếp bất kỳ kỹ năng nào mà không cần workflow:
 
 ```
-"Run seo-entity analysis for example.com"
-"Check seo-backlink for competitor.com"
-"Analyze seo-schema for https://example.com/about"
+Chạy seo-entity analysis cho example.com
 ```
 
-Truy cập trực tiếp KHÔNG thay đổi phase dự án.
+Điều này KHÔNG ảnh hưởng project phase.

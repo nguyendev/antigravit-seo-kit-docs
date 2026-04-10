@@ -1,16 +1,17 @@
-# Hướng Dẫn: Audit Cơ Bản
+# Audit Cơ Bản
 
-Hướng dẫn này đưa bạn qua 3 bước cơ bản để chạy audit SEO đầu tiên với Antigravity SEO Kit.
+Hướng dẫn kiểm tra kỹ thuật SEO nhanh cho người mới bắt đầu.
 
-## Yêu Cầu
+## Bước 1: Chạy Audit
 
-- Đã cài đặt SEO Kit ([hướng dẫn cài đặt](../../bat-dau/cai-dat.md))
-- Có domain muốn audit
+```
+/seo-audit yourdomain.com --scope homepage
+```
 
-## Các Phần
+## Bước 2: Đọc Health Score
 
-| Phần | Nội Dung |
-|------|----------|
-| [1: Onboarding Dự Án](phan-01.md) | Khởi tạo project, kết nối APIs |
-| [2: Chạy Audit](phan-02.md) | Thực thi full-site audit |
-| [3: Đọc Kết Quả](phan-03.md) | Hiểu Health Score và action plan |
+SEO Kit tạo Health Score 0-100 dựa trên 7 danh mục. Xem chi tiết tại [/seo-audit](../../workflows/seo-audit.md).
+
+## Bước 3: Xem Action Plan
+
+Các lỗi được phân loại: Critical → High → Medium → Low. Ưu tiên sửa Critical trước.
