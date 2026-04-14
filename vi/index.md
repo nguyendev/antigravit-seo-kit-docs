@@ -1,11 +1,11 @@
 ```json
 //[doc-seo]
 {
-    "Description": "Tài liệu Antigravity SEO Kit — bộ công cụ AI SEO chuyên nghiệp với 44 kỹ năng, 11 workflows, và vòng đời 5 giai đoạn cho Google Antigravity."
+    "Description": "Tài liệu Antigravity SEO Kit — bộ công cụ AI SEO chuyên nghiệp với 8 agents, 44 kỹ năng, 12 workflows, và vòng đời 5 giai đoạn cho Google Antigravity."
 }
 ```
 
-Antigravity SEO Kit cung cấp **44 kỹ năng phân tích SEO chuyên biệt** được điều phối bởi **11 workflows tự động**, tổ chức thành **vòng đời 5 giai đoạn**. Được xây dựng cho nền tảng [Google Antigravity](https://deepmind.google/technologies/antigravity/).
+Antigravity SEO Kit cung cấp **8 AI agents chuyên biệt**, **44 kỹ năng phân tích SEO**, và **12 workflows tự động**, tổ chức thành **vòng đời 5 giai đoạn**. Được xây dựng cho nền tảng [Google Antigravity](https://deepmind.google/technologies/antigravity/).
 
 ## Tại Sao Chọn Antigravity SEO Kit?
 
@@ -18,7 +18,7 @@ Antigravity SEO Kit cung cấp **44 kỹ năng phân tích SEO chuyên biệt** 
 ## Bắt Đầu Nhanh
 
 ```bash
-npx ag-seo-kit install --key=SK-XXXX-XXXX-XXXX
+npx antigravity-seo-kit install --key=SK-XXXX-XXXX-XXXX
 ```
 
 > Mua license key tại: [antigravityseokit.solann.io](https://antigravityseokit.solann.io/)
@@ -33,7 +33,7 @@ Xem [Hướng dẫn cài đặt chi tiết](bat-dau/cai-dat.md) nếu bạn mớ
 
 Đọc thêm tại [Workflows](workflows).
 
-### 11 Workflows
+### 12 Workflows
 
 | Workflow | Loại | Kỹ Năng | Mục Đích |
 |----------|------|---------|----------|
@@ -44,14 +44,30 @@ Xem [Hướng dẫn cài đặt chi tiết](bat-dau/cai-dat.md) nếu bạn mớ
 | [`/seo-strategy`](workflows/seo-strategy.md) | Phase 3 | 12 | Chiến lược nội dung & thị trường |
 | [`/seo-execute`](workflows/seo-execute.md) | Phase 4 | 10 | Tạo bản sửa lỗi & nội dung |
 | [`/seo-monitor`](workflows/seo-monitor.md) | Phase 5 | 8 | Theo dõi & đo lường |
-| [`/seo-local-suite`](workflows/seo-local-suite.md) | Deep-dive | 2 | Local SEO chuyên sâu |
-| [`/seo-page`](workflows/seo-page.md) | Tiện ích | 4 | Phân tích trang đơn |
+| [`/seo-auto-run`](workflows/seo-auto-run.md) | Autonomous | All | Pipeline tự động hoàn toàn |
 | [`/seo-llm-visibility`](workflows/seo-llm-visibility.md) | Deep-dive | 5 | GEO: AI SOV, fan-out, brand sentiment |
 | [`/seo-social-commerce`](workflows/seo-social-commerce.md) | Deep-dive | 4 | Zalo, TikTok, Visual Search |
+| [`/seo-local-suite`](workflows/seo-local-suite.md) | Deep-dive | 2 | Local SEO chuyên sâu |
+| [`/seo-page`](workflows/seo-page.md) | Tiện ích | 4 | Phân tích trang đơn |
 
 ### 44 Kỹ Năng
 
 Tổ chức thành 8 nhóm. Xem [Kỹ Năng](ky-nang).
+
+### 8 AI Agents
+
+| Agent | Chuyên môn | Workflow chính |
+|-------|-----------|---------------|
+| `seo-auditor` | Chẩn đoán toàn diện | `/seo-audit` |
+| `seo-strategist` | Lập kế hoạch & từ khóa | `/seo-strategy` |
+| `seo-content-writer` | Tạo nội dung | `/seo-page` |
+| `seo-ai-specialist` | GEO / AI visibility | `/seo-llm-visibility` |
+| `seo-local-expert` | Local SEO | `/seo-local-suite` |
+| `seo-growth-hacker` | Off-page & phân phối | `/seo-social-commerce` |
+| `seo-data-analyst` | Analytics & giám sát | `/seo-monitor` |
+| `seo-migration-expert` | Di chuyển & sửa lỗi | `/seo-execute` |
+
+Xem [Hệ thống Agent](kien-truc/he-thong-agent.md) để biết chi tiết.
 
 ### Mở Rộng (Extensions)
 
@@ -64,7 +80,7 @@ Tổ chức thành 8 nhóm. Xem [Kỹ Năng](ky-nang).
 
 ## Phiên Bản
 
-Phiên bản hiện tại: **1.0.0**. Xem [Ghi chú phát hành](ghi-chu-phat-hanh.md).
+Phiên bản hiện tại: **0.9.6**. Xem [Ghi chú phát hành](ghi-chu-phat-hanh.md).
 
 ## Mua & Hỗ Trợ
 

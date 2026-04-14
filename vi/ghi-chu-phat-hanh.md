@@ -1,6 +1,21 @@
 # Ghi Chú Phát Hành
 
-## v1.0.0 (2026-04-10)
+## v0.9.6 (2026-04-14)
+
+### Mới
+
+- **8 AI Agents chuyên biệt**: seo-auditor, seo-strategist, seo-content-writer, seo-ai-specialist, seo-local-expert, seo-growth-hacker, seo-data-analyst, seo-migration-expert
+- **12 workflows** (thêm `/seo-auto-run`)
+- Agent routing tự động — AI tự chọn agent phù hợp với yêu cầu
+
+### Sửa Lỗi
+
+- CLI name: `antigravity-seo-kit` (thay `ag-seo-kit`)
+- Cập nhật URLs: mua tại antigravityseokit.solann.io, quản lý tại app.solann.io
+
+---
+
+## v0.9.0 (2026-04-01)
 
 ### Mới
 

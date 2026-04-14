@@ -5,7 +5,7 @@
 ## Quick Start
 
 ```bash
-npx ag-seo-kit install --key=SK-XXXX-XXXX-XXXX
+npx antigravity-seo-kit install --key=SK-XXXX-XXXX-XXXX
 ```
 
 Then start with:

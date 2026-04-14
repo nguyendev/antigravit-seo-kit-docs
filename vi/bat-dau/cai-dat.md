@@ -55,11 +55,12 @@ npx antigravity-seo-kit status
 Kết quả mẫu:
 
 ```
-✅ Antigravity SEO Kit v1.0.0
+✅ Antigravity SEO Kit v0.9.6
 License: SK-****-****-XXXX (valid until 2027-04-01)
 Devices: 1/3 active
 Skills: 44 loaded
-Workflows: 11 loaded
+Workflows: 12 loaded
+Agents: 8 loaded
 Rules: 7 loaded
 ```
 

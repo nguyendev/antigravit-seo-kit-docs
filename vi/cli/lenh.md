@@ -16,10 +16,22 @@
 
 | Lệnh | Mô tả |
 |------|-------|
+| `/seo-auto-run <domain>` | Pipeline tự động hoàn toàn, không cần xác nhận |
 | `/seo-llm-visibility <domain>` | GEO: AI SOV, fan-out, brand sentiment |
 | `/seo-social-commerce <domain>` | Zalo, TikTok, Visual Search (VN market) |
 | `/seo-local-suite <domain>` | Local SEO: GBP, Maps |
 | `/seo-page <url>` | On-page analysis trang đơn |
+
+## Quản Lý Cài Đặt
+
+| Lệnh | Mô tả |
+|------|-------|
+| `npx antigravity-seo-kit install --key=...` | Cài đặt SEO Kit |
+| `npx antigravity-seo-kit update` | Cập nhật phiên bản mới |
+| `npx antigravity-seo-kit status` | Kiểm tra trạng thái |
+| `npx antigravity-seo-kit devices` | Xem danh sách thiết bị |
+| `npx antigravity-seo-kit devices remove <id>` | Xóa thiết bị |
+| `npx antigravity-seo-kit uninstall --confirm` | Gỡ cài đặt |
 
 ## Truy Cập Trực Tiếp Kỹ Năng
 

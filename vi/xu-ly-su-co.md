@@ -4,16 +4,16 @@
 
 ### "License key is expired or invalid"
 
-- Kiểm tra: `npx ag-seo-kit status`
+- Kiểm tra: `npx antigravity-seo-kit status`
 - Key hết hạn → gia hạn tại [app.solann.io](https://app.solann.io/)
 
 ### "Maximum devices reached (3/3)"
 
-- Xóa thiết bị cũ: `npx ag-seo-kit devices remove <deviceId>`
+- Xóa thiết bị cũ: `npx antigravity-seo-kit devices remove <deviceId>`
 
 ### "Skills not found"
 
-- Cập nhật: `npx ag-seo-kit update`
+- Cập nhật: `npx antigravity-seo-kit update`
 
 ### "Domain not reachable"
 

@@ -12,7 +12,7 @@ Antigravity SEO Kit là bộ kỹ năng AI SEO chuyên nghiệp cho nền tảng
 ## Cài Đặt Nhanh
 
 ```bash
-npx ag-seo-kit install --key=SK-XXXX-XXXX-XXXX
+npx antigravity-seo-kit install --key=SK-XXXX-XXXX-XXXX
 ```
 
 > Mua license key tại: [antigravityseokit.solann.io](https://antigravityseokit.solann.io/)

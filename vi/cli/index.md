@@ -6,10 +6,10 @@ SEO Kit được điều khiển bằng các lệnh slash trong Antigravity chat
 
 | Lệnh | Mô tả |
 |------|-------|
-| `npx ag-seo-kit install --key=...` | Cài đặt SEO Kit |
-| `npx ag-seo-kit status` | Kiểm tra trạng thái |
-| `npx ag-seo-kit update` | Cập nhật |
-| `npx ag-seo-kit devices` | Quản lý thiết bị |
+| `npx antigravity-seo-kit install --key=...` | Cài đặt SEO Kit |
+| `npx antigravity-seo-kit status` | Kiểm tra trạng thái |
+| `npx antigravity-seo-kit update` | Cập nhật |
+| `npx antigravity-seo-kit devices` | Quản lý thiết bị |
 
 ## Workflows
 

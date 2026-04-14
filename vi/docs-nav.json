@@ -23,6 +23,10 @@
         {
           "text": "Quản Lý License",
           "path": "bat-dau/quan-ly-license.md"
+        },
+        {
+          "text": "Cập Nhật & Phiên Bản",
+          "path": "bat-dau/cap-nhat.md"
         }
       ]
     },
@@ -61,6 +65,10 @@
         {
           "text": "/seo-monitor — Phase 5: Giám Sát",
           "path": "workflows/seo-monitor.md"
+        },
+        {
+          "text": "/seo-auto-run — Tự Động Hoàn Toàn",
+          "path": "workflows/seo-auto-run.md"
         },
         {
           "text": "/seo-llm-visibility — GEO: AI Search",
@@ -417,6 +425,14 @@
         {
           "text": "Hệ Thống Mở Rộng",
           "path": "kien-truc/he-thong-mo-rong.md"
+        },
+        {
+          "text": "Hệ Thống Agent",
+          "path": "kien-truc/he-thong-agent.md"
+        },
+        {
+          "text": "Quy Tắc Vận Hành",
+          "path": "kien-truc/quy-tac.md"
         }
       ]
     },
