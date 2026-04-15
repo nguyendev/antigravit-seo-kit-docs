@@ -33,39 +33,39 @@ Xem [Hướng dẫn cài đặt chi tiết](bat-dau/cai-dat.md) nếu bạn mớ
 
 Đọc thêm tại [Workflows](workflows).
 
-### 12 Workflows
+### 12 Workflows (10 Static + 2 Dynamic)
 
-| Workflow | Loại | Kỹ Năng | Mục Đích |
-|----------|------|---------|----------|
-| [`/seo-run`](workflows/seo-run.md) | Master | — | Tự phát hiện phase, đề xuất bước tiếp |
-| [`/seo-onboard`](workflows/seo-onboard.md) | Phase 1 | 4 | Khởi tạo dự án, brand identity, personas |
-| [`/seo-research`](workflows/seo-research.md) | Research | 6 | Từ khóa, audience, prompt AI, content gap |
-| [`/seo-audit`](workflows/seo-audit.md) | Phase 2 | 9 | Kiểm tra toàn diện website |
-| [`/seo-strategy`](workflows/seo-strategy.md) | Phase 3 | 12 | Chiến lược nội dung & thị trường |
-| [`/seo-execute`](workflows/seo-execute.md) | Phase 4 | 10 | Tạo bản sửa lỗi & nội dung |
-| [`/seo-monitor`](workflows/seo-monitor.md) | Phase 5 | 8 | Theo dõi & đo lường |
-| [`/seo-auto-run`](workflows/seo-auto-run.md) | Autonomous | All | Pipeline tự động hoàn toàn |
-| [`/seo-llm-visibility`](workflows/seo-llm-visibility.md) | Deep-dive | 5 | GEO: AI SOV, fan-out, brand sentiment |
-| [`/seo-social-commerce`](workflows/seo-social-commerce.md) | Deep-dive | 4 | Zalo, TikTok, Visual Search |
-| [`/seo-local-suite`](workflows/seo-local-suite.md) | Deep-dive | 2 | Local SEO chuyên sâu |
-| [`/seo-page`](workflows/seo-page.md) | Tiện ích | 4 | Phân tích trang đơn |
+| Workflow | Agent | Skills | Mục Đích |
+|----------|-------|--------|----------|
+| [`/seo-run`](workflows/seo-run.md) | *theo phase* | — | Tự phát hiện phase, đề xuất bước tiếp |
+| [`/seo-auto-run`](workflows/seo-auto-run.md) | *theo phase* | All | Pipeline tự động hoàn toàn |
+| [`/seo-onboard`](workflows/seo-onboard.md) | `seo-strategist` | 4 | Khởi tạo dự án, brand identity, personas |
+| [`/seo-research`](workflows/seo-research.md) | `seo-strategist` | 6 | Từ khóa, audience, prompt AI, content gap |
+| [`/seo-audit`](workflows/seo-audit.md) | `seo-auditor` | 9 | Kiểm tra toàn diện website |
+| [`/seo-strategy`](workflows/seo-strategy.md) | `seo-strategist` | 12 | Chiến lược nội dung & thị trường |
+| [`/seo-execute`](workflows/seo-execute.md) | `seo-migration-expert` | 10 | Tạo bản sửa lỗi & nội dung |
+| [`/seo-monitor`](workflows/seo-monitor.md) | `seo-data-analyst` | 8 | Theo dõi & đo lường |
+| [`/seo-llm-visibility`](workflows/seo-llm-visibility.md) | `seo-ai-specialist` | 5 | GEO: AI SOV, fan-out, brand sentiment |
+| [`/seo-social-commerce`](workflows/seo-social-commerce.md) | `seo-growth-hacker` | 4 | Zalo, TikTok, Visual Search |
+| [`/seo-local-suite`](workflows/seo-local-suite.md) | `seo-local-expert` | 2 | Local SEO chuyên sâu |
+| [`/seo-page`](workflows/seo-page.md) | `seo-content-writer` | 4 | Phân tích trang đơn |
 
-### 44 Kỹ Năng
+### 44 Kỹ Năng (47 with shared)
 
-Tổ chức thành 8 nhóm. Xem [Kỹ Năng](ky-nang).
+Tổ chức thành 8 nhóm, 3 skills chia sẻ giữa agents. Xem [Kỹ Năng](ky-nang).
 
 ### 8 AI Agents
 
-| Agent | Chuyên môn | Workflow chính |
-|-------|-----------|---------------|
-| `seo-auditor` | Chẩn đoán toàn diện | `/seo-audit` |
-| `seo-strategist` | Lập kế hoạch & từ khóa | `/seo-strategy` |
-| `seo-content-writer` | Tạo nội dung | `/seo-page` |
-| `seo-ai-specialist` | GEO / AI visibility | `/seo-llm-visibility` |
-| `seo-local-expert` | Local SEO | `/seo-local-suite` |
-| `seo-growth-hacker` | Off-page & phân phối | `/seo-social-commerce` |
-| `seo-data-analyst` | Analytics & giám sát | `/seo-monitor` |
-| `seo-migration-expert` | Di chuyển & sửa lỗi | `/seo-execute` |
+| Agent | Skills | Chuyên môn | Workflow chính |
+|-------|:------:|-----------|---------------|
+| `seo-auditor` | 10 | Chẩn đoán toàn diện | `/seo-audit` |
+| `seo-strategist` | 6 | Lập kế hoạch & từ khóa | `/seo-strategy` |
+| `seo-content-writer` | 6 | Tạo nội dung | `/seo-page` |
+| `seo-ai-specialist` | 7 | GEO / AI visibility | `/seo-llm-visibility` |
+| `seo-local-expert` | 3 | Local SEO | `/seo-local-suite` |
+| `seo-growth-hacker` | 9 | Off-page & phân phối | `/seo-social-commerce` |
+| `seo-data-analyst` | 4 | Analytics & giám sát | `/seo-monitor` |
+| `seo-migration-expert` | 2 | Di chuyển & sửa lỗi | `/seo-execute` |
 
 Xem [Hệ thống Agent](kien-truc/he-thong-agent.md) để biết chi tiết.
 
@@ -80,7 +80,7 @@ Xem [Hệ thống Agent](kien-truc/he-thong-agent.md) để biết chi tiết.
 
 ## Phiên Bản
 
-Phiên bản hiện tại: **0.9.6**. Xem [Ghi chú phát hành](ghi-chu-phat-hanh.md).
+Phiên bản hiện tại: **1.0.0**. Xem [Ghi chú phát hành](ghi-chu-phat-hanh.md).
 
 ## Mua & Hỗ Trợ
 

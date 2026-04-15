@@ -40,11 +40,11 @@ Thay `SK-XXXX-XXXX-XXXX` bằng license key bạn đã mua tại [antigravityseo
 ### Quá trình tự động:
 
 SEO Kit sẽ:
-1. ✅ Xác thực license key
-2. ✅ Tải và cài đặt skills vào thư mục `.agent/skills/`
-3. ✅ Cài đặt workflows vào `.agent/workflows/`
-4. ✅ Cấu hình rules vào `.agent/rules/`
-5. ✅ Kích hoạt thiết bị (mỗi license sẽ cho phép dùng tối đa số thiết bị tương ứng)
+1. ✅ Xác thực license key với server
+2. ✅ Tải assets từ server (skills, workflows, agents, rules)
+3. ✅ Giải nén và cài đặt vào thư mục `.agent/`
+4. ✅ Lưu manifest vào `.seo-kit-license` (danh sách files đã cài)
+5. ✅ Kích hoạt thiết bị (mỗi license cho phép tối đa 3 thiết bị)
 
 ### Xác nhận cài đặt:
 
@@ -55,13 +55,16 @@ npx antigravity-seo-kit status
 Kết quả mẫu:
 
 ```
-✅ Antigravity SEO Kit v0.9.6
-License: SK-****-****-XXXX (valid until 2027-04-01)
-Devices: 1/3 active
-Skills: 44 loaded
-Workflows: 12 loaded
-Agents: 8 loaded
-Rules: 7 loaded
+SEO Kit Installation Status
+
+  Version:      1.0.0
+  License Key:  SK-****-****-XXXX
+  Device ID:    abc123...
+  Device Name:  DESKTOP-ABC
+  Installed:    2026-04-15T09:00:00Z
+  Plan:         pro
+
+  Files:        156/156 present
 ```
 
 ## Bước 5: Bắt Đầu Sử Dụng
@@ -82,8 +85,12 @@ SEO Kit sẽ tự phát hiện đây là dự án mới và hướng dẫn bạn
 npx antigravity-seo-kit update
 ```
 
+Xem chi tiết tại [Cập nhật & Phiên bản](cap-nhat.md).
+
 ## Gỡ Cài Đặt
 
 ```bash
 npx antigravity-seo-kit uninstall --confirm
 ```
+
+> ⚠️ Lệnh này xóa toàn bộ SEO Kit files. Dữ liệu dự án trong `seo-projects/` **KHÔNG bị xóa**.

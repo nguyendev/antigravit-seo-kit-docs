@@ -8,9 +8,10 @@ npx antigravity-seo-kit update
 
 Lệnh này sẽ:
 1. Xác thực license key hiện tại
-2. Kiểm tra phiên bản mới nhất
+2. Tải bản mới nhất từ server
 3. Cập nhật toàn bộ skills, workflows, rules, và agents
-4. Giữ nguyên license và dữ liệu dự án
+4. Cập nhật manifest trong `.seo-kit-license`
+5. Giữ nguyên dữ liệu dự án trong `seo-projects/`
 
 ## Kiểm Tra Phiên Bản Hiện Tại
 
@@ -23,13 +24,20 @@ Output mẫu:
 ```
 SEO Kit Installation Status
 
-  Version:      0.9.6
+  Version:      1.0.0
   License Key:  SK-****-****-XXXX
   Device ID:    abc123...
-  Skills:       44/44 installed
-  Workflows:    12/12 installed
-  Agents:       8/8 installed
-  Rules:        7/7 installed
+  Device Name:  DESKTOP-ABC
+  Installed:    2026-04-15T09:00:00Z
+  Plan:         pro
+
+  Files:        156/156 present
+```
+
+## Xem Phiên Bản CLI
+
+```bash
+npx antigravity-seo-kit --version
 ```
 
 ## Gỡ Cài Đặt

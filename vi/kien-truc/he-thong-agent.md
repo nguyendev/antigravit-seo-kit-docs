@@ -6,58 +6,114 @@ SEO Kit sử dụng 8 AI agents chuyên biệt — mỗi agent là một "chuyê
 
 | Agent | Chuyên môn | Kỹ năng | Workflow chính |
 |-------|-----------|---------|---------------|
-| `seo-auditor` | Chẩn đoán toàn diện | 9 skills + 9 scripts | `/seo-audit` |
+| `seo-auditor` | Chẩn đoán toàn diện | 10 skills | `/seo-audit` |
 | `seo-strategist` | Lập kế hoạch & từ khóa | 6 skills | `/seo-strategy`, `/seo-research` |
 | `seo-content-writer` | Tạo nội dung | 6 skills | `/seo-page`, `/seo-run` |
-| `seo-ai-specialist` | GEO / AI visibility | 6 skills | `/seo-llm-visibility` |
+| `seo-ai-specialist` | GEO / AI visibility | 7 skills | `/seo-llm-visibility` |
 | `seo-local-expert` | Local SEO | 3 skills | `/seo-local-suite` |
-| `seo-growth-hacker` | Off-page & phân phối | 8 skills | `/seo-social-commerce` |
+| `seo-growth-hacker` | Off-page & phân phối | 9 skills | `/seo-social-commerce` |
 | `seo-data-analyst` | Analytics & giám sát | 4 skills | `/seo-monitor`, `/seo-auto-run` |
 | `seo-migration-expert` | Di chuyển & sửa lỗi | 2 skills | `/seo-execute` |
 
 ## Agent → Skills Mapping
 
 ```
-seo-auditor
-├── seo-audit, seo-technical, seo-content, seo-schema
-├── seo-images, seo-sitemap, seo-hreflang
-├── seo-geo, seo-source-context
+seo-auditor (10 skills)
+├── seo                (core: aggregator, crawler)
+├── seo-audit          (orchestration)
+├── seo-technical      (SSL, headers, robots)
+├── seo-content        (E-E-A-T, readability)  ⟵ shared with content-writer
+├── seo-schema         (JSON-LD, validation)
+├── seo-images         (alt text, formats)
+├── seo-sitemap        (XML sitemap)
+├── seo-hreflang       (international)
+├── seo-geo            (AI readiness)          ⟵ shared with ai-specialist
+└── seo-source-context (authorship)            ⟵ shared with content-writer
 
-seo-strategist
-├── seo-plan, seo-keyword, seo-content-gap
-├── seo-topical-authority, seo-audience, seo-competitor-pages
+seo-strategist (6 skills)
+├── seo-plan           (project planning)
+├── seo-keyword        (keyword research)
+├── seo-content-gap    (competitor gaps)
+├── seo-topical-authority (cluster maps)
+├── seo-audience       (personas)
+└── seo-competitor-pages (rival analysis)
 
-seo-content-writer
-├── seo-content, seo-page, seo-source-context
-├── seo-entity, seo-programmatic, seo-fan-out-generator
+seo-content-writer (6 skills)
+├── seo-content        (quality scoring)       ⟵ shared with auditor
+├── seo-page           (page optimization)
+├── seo-source-context (authorship)            ⟵ shared with auditor
+├── seo-entity         (entity SEO)
+├── seo-programmatic   (content at scale)
+└── seo-fan-out-generator (variations)
 
-seo-ai-specialist
-├── seo-geo, seo-geo-monitor, seo-agentic
-├── seo-llmstxt, seo-answer, seo-citemet
+seo-ai-specialist (7 skills)
+├── seo-geo            (GEO analysis)          ⟵ shared with auditor
+├── seo-geo-monitor    (AI mention tracking)
+├── seo-agentic        (agent readiness)
+├── seo-llmstxt        (llms.txt)
+├── seo-answer         (answer engines)
+├── seo-citemet        (citation metrics)
+└── seo-prompt-research (AI prompt patterns)
 
-seo-local-expert
-├── seo-local, seo-maps, seo-coccoc-optimizer
+seo-local-expert (3 skills)
+├── seo-local          (GBP, NAP, citations)
+├── seo-maps           (geo-grid, map pack)
+└── seo-coccoc-optimizer (Vietnam search)
 
-seo-growth-hacker
-├── seo-backlink, seo-social-zalo, seo-reddit-scraper
-├── seo-brand-sentiment, seo-video, seo-video-transcript
-├── seo-image-gen, seo-visual-search
+seo-growth-hacker (9 skills)
+├── seo-backlink       (link building)
+├── seo-authority      (brand authority)
+├── seo-social-zalo    (Zalo, social platforms)
+├── seo-reddit-scraper (Reddit mining)
+├── seo-brand-sentiment (brand monitoring)
+├── seo-video          (YouTube SEO)
+├── seo-video-transcript (TikTok/Shorts)
+├── seo-image-gen      (AI images)
+└── seo-visual-search  (Google Lens)
 
-seo-data-analyst
-├── seo-google, seo-dataforseo, seo-logs, seo-test
+seo-data-analyst (4 skills)
+├── seo-google         (GSC, PageSpeed, GA4)
+├── seo-dataforseo     (DataForSEO API)
+├── seo-logs           (server log analysis)
+└── seo-test           (SEO A/B testing)
 
-seo-migration-expert
-├── seo-migration, seo-fix
+seo-migration-expert (2 skills)
+├── seo-migration      (domain moves, CMS)
+└── seo-fix            (bulk technical fixes)
 ```
+
+## Shared Skills (3)
+
+3 skills được chia sẻ giữa agents — cùng skill nhưng **mục đích khác nhau**:
+
+| Skill | Agent A (mục đích) | Agent B (mục đích) |
+|-------|---------------------|---------------------|
+| `seo-content` | `seo-auditor` (chấm điểm) | `seo-content-writer` (tạo mới) |
+| `seo-source-context` | `seo-auditor` (kiểm tra) | `seo-content-writer` (xây dựng) |
+| `seo-geo` | `seo-auditor` (citability check) | `seo-ai-specialist` (GEO strategy) |
+
+> 📊 Tổng: 44 unique skills / 47 with shared assignments / 0 orphan skills
 
 ## Routing Tự Động
 
-SEO Kit tự động chọn agent phù hợp dựa trên:
+SEO Kit tự động chọn agent phù hợp theo thứ tự ưu tiên:
 
-1. **Lệnh slash** → Agent gắn với workflow đó
-2. **`@agent`** → Load agent trực tiếp
-3. **Ý định** → Auto-detect từ câu hỏi của bạn
-4. **Domain** → Hiển thị project state + suggest agent
+```
+User Request
+    │
+    ├─ Lệnh /command? ─────→ Execute workflow → Agent cố định
+    │       └─ Meta (/seo-run, /seo-auto-run) → Agent theo phase
+    │
+    ├─ @agent? ────────────→ Load agent trực tiếp
+    │
+    ├─ Skill cụ thể? ─────→ Load skill (không qua agent)
+    │
+    ├─ Ý định → AI search? → seo-ai-specialist
+    │         → Audit?      → seo-auditor
+    │         → Keywords?   → seo-strategist
+    │
+    └─ Domain detected? ──→ Hiển thị project state + suggest agent
+```
 
 Ví dụ:
 - "audit site" → `seo-auditor`

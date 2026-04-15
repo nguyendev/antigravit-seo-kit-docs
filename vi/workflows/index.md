@@ -8,31 +8,57 @@ Workflows là **cốt lõi** của SEO Kit. Mỗi workflow kích hoạt hàng lo
 📋 ONBOARD → 🔎 RESEARCH → 🔍 AUDIT → 🧠 STRATEGY → ⚡ EXECUTE → 📈 MONITOR → (lặp lại)
 ```
 
-## 11 Workflows
+## 12 Workflows
 
-### Lifecycle (7)
+### Static Workflows (10) — Agent cố định
 
-| Workflow | Phase | Skills | Mục Đích |
+| Workflow | Agent | Skills | Mục Đích |
 |----------|-------|--------|----------|
-| [`/seo-run`](seo-run.md) | Master | — | Tự phát hiện phase, đề xuất bước tiếp |
-| [`/seo-onboard`](seo-onboard.md) | Phase 1 | 4 | Khởi tạo, brand identity, personas |
-| [`/seo-research`](seo-research.md) | Research | 6 | Từ khóa, audience, prompt AI, fan-out |
-| [`/seo-audit`](seo-audit.md) | Phase 2 | 9 | Kiểm tra toàn diện website |
-| [`/seo-strategy`](seo-strategy.md) | Phase 3 | 12 | Chiến lược, roadmap 30/60/90 |
-| [`/seo-execute`](seo-execute.md) | Phase 4 | 10 | Tạo code fixes, nội dung, llms.txt |
-| [`/seo-monitor`](seo-monitor.md) | Phase 5 | 8 | Giám sát, A/B test, brand sentiment |
+| [`/seo-onboard`](seo-onboard.md) | `seo-strategist` | 4 | Khởi tạo, brand identity, personas |
+| [`/seo-research`](seo-research.md) | `seo-strategist` | 6 | Từ khóa, audience, prompt AI, fan-out |
+| [`/seo-audit`](seo-audit.md) | `seo-auditor` | 9 | Kiểm tra toàn diện website |
+| [`/seo-strategy`](seo-strategy.md) | `seo-strategist` | 12 | Chiến lược, roadmap 30/60/90 |
+| [`/seo-execute`](seo-execute.md) | `seo-migration-expert` | 10 | Tạo code fixes, nội dung, llms.txt |
+| [`/seo-monitor`](seo-monitor.md) | `seo-data-analyst` | 8 | Giám sát, A/B test, brand sentiment |
+| [`/seo-page`](seo-page.md) | `seo-content-writer` | 4 | Phân tích on-page trang đơn |
+| [`/seo-llm-visibility`](seo-llm-visibility.md) | `seo-ai-specialist` | 5 | GEO: SOV, fan-out, brand sentiment |
+| [`/seo-social-commerce`](seo-social-commerce.md) | `seo-growth-hacker` | 4 | Zalo, TikTok, Shopee Visual Search |
+| [`/seo-local-suite`](seo-local-suite.md) | `seo-local-expert` | 2 | Local SEO chuyên sâu |
 
-### Deep-dive & Tiện ích (4)
+### Dynamic Meta-Workflows (2) — Agent theo phase
 
-| Workflow | Loại | Skills | Mục Đích |
-|----------|------|--------|----------|
-| [`/seo-llm-visibility`](seo-llm-visibility.md) | Deep-dive | 5 | GEO: SOV, fan-out, brand sentiment, llms.txt |
-| [`/seo-social-commerce`](seo-social-commerce.md) | Deep-dive | 4 | Zalo, TikTok, Shopee Visual Search |
-| [`/seo-local-suite`](seo-local-suite.md) | Deep-dive | 2 | Local SEO chuyên sâu |
-| [`/seo-page`](seo-page.md) | Tiện ích | 4 | Phân tích on-page trang đơn |
+| Workflow | Mô tả |
+|----------|--------|
+| [`/seo-run`](seo-run.md) | Interactive: hiển thị dashboard, đề xuất bước tiếp, chờ duyệt |
+| [`/seo-auto-run`](seo-auto-run.md) | Autonomous: chuỗi tất cả phases còn lại tự động |
+
+**Phase → Agent:**
+
+| Phase hiện tại | Workflow tiếp | Agent |
+|---------------|--------------|-------|
+| *(mới)* | `/seo-onboard` | `seo-strategist` |
+| `greenfield` | `/seo-research` | `seo-strategist` |
+| `onboarded` | `/seo-research` hoặc `/seo-audit` | `seo-strategist` / `seo-auditor` |
+| `researched` | `/seo-audit` | `seo-auditor` |
+| `audited` | `/seo-strategy` | `seo-strategist` |
+| `strategized` | `/seo-execute` | `seo-migration-expert` |
+| `executed` | `/seo-monitor` | `seo-data-analyst` |
+| `monitoring` | re-audit cycle | `seo-auditor` |
+
+### Cross-Agent Workflow: `/seo-execute`
+
+`/seo-execute` là workflow duy nhất kích hoạt skills từ **5 agents khác nhau**:
+
+| Skill | Agent nguồn | Điều kiện |
+|-------|-------------|-----------|
+| `seo-fix`, `seo-migration` | `seo-migration-expert` | Luôn chạy / `--migration` |
+| `seo-schema` | `seo-auditor` | Luôn chạy |
+| `seo-content` | `seo-content-writer` | Luôn chạy |
+| `seo-video`, `seo-video-transcript`, `seo-image-gen`, `seo-visual-search` | `seo-growth-hacker` | Nếu phù hợp |
+| `seo-llmstxt`, `seo-citemet` | `seo-ai-specialist` | Luôn chạy |
 
 ## Nguyên Tắc
 
-- **Suggest + Approve**: Workflows **KHÔNG BAO GIỜ** tự thực thi. Luôn đề xuất và chờ duyệt.
+- **Suggest + Approve**: Static workflows **KHÔNG BAO GIỜ** tự thực thi. Luôn đề xuất và chờ duyệt.
 - **Deep-dive không đổi phase**: `/seo-llm-visibility`, `/seo-social-commerce`, `/seo-local-suite` ghi vào `runs[]` nhưng không cập nhật `phase`.
 - **Anti-Hallucination**: Mọi output gắn tag nguồn dữ liệu (`[FETCHED]`, `[VERIFIED]`, `[INFERRED]`, `[TEMPLATE]`).

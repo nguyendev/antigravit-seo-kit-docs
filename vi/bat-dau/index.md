@@ -7,7 +7,7 @@
 
 # Bắt Đầu
 
-Antigravity SEO Kit là bộ kỹ năng AI SEO chuyên nghiệp cho nền tảng [Google Antigravity](https://deepmind.google/technologies/antigravity/). Gồm **44 kỹ năng**, **11 workflows**, vòng đời 5 giai đoạn.
+Antigravity SEO Kit là bộ kỹ năng AI SEO chuyên nghiệp cho nền tảng [Google Antigravity](https://deepmind.google/technologies/antigravity/). Gồm **8 AI agents**, **44 kỹ năng**, **12 workflows**, vòng đời 5 giai đoạn.
 
 ## Cài Đặt Nhanh
 

@@ -1,26 +1,26 @@
 # Danh Sách Lệnh
 
-## Lifecycle Workflows
+## Lifecycle Workflows (Static — Agent cố định)
 
-| Lệnh | Phase | Mô tả |
+| Lệnh | Agent | Mô tả |
 |------|-------|-------|
-| `/seo-run <domain>` | Master | Tự phát hiện phase, đề xuất bước tiếp |
-| `/seo-onboard <domain>` | Phase 1 | Khởi tạo dự án, brand identity |
-| `/seo-research <domain>` | Research | Từ khóa, audience, prompt patterns |
-| `/seo-audit <domain>` | Phase 2 | Kiểm tra toàn diện, Health Score |
-| `/seo-strategy <domain>` | Phase 3 | Chiến lược, roadmap 30/60/90 |
-| `/seo-execute <domain>` | Phase 4 | Generate code fixes, content |
-| `/seo-monitor <domain>` | Phase 5 | Giám sát, A/B test |
+| `/seo-onboard <domain>` | `seo-strategist` | Khởi tạo dự án, brand identity |
+| `/seo-research <domain>` | `seo-strategist` | Từ khóa, audience, prompt patterns |
+| `/seo-audit <domain>` | `seo-auditor` | Kiểm tra toàn diện, Health Score |
+| `/seo-strategy <domain>` | `seo-strategist` | Chiến lược, roadmap 30/60/90 |
+| `/seo-execute <domain>` | `seo-migration-expert` | Generate code fixes, content |
+| `/seo-monitor <domain>` | `seo-data-analyst` | Giám sát, A/B test |
+| `/seo-page <url>` | `seo-content-writer` | On-page analysis trang đơn |
+| `/seo-llm-visibility <domain>` | `seo-ai-specialist` | GEO: AI SOV, fan-out, brand sentiment |
+| `/seo-social-commerce <domain>` | `seo-growth-hacker` | Zalo, TikTok, Visual Search (VN market) |
+| `/seo-local-suite <domain>` | `seo-local-expert` | Local SEO: GBP, Maps |
 
-## Deep-dive Workflows
+## Dynamic Meta-Workflows (Agent theo phase)
 
 | Lệnh | Mô tả |
 |------|-------|
-| `/seo-auto-run <domain>` | Pipeline tự động hoàn toàn, không cần xác nhận |
-| `/seo-llm-visibility <domain>` | GEO: AI SOV, fan-out, brand sentiment |
-| `/seo-social-commerce <domain>` | Zalo, TikTok, Visual Search (VN market) |
-| `/seo-local-suite <domain>` | Local SEO: GBP, Maps |
-| `/seo-page <url>` | On-page analysis trang đơn |
+| `/seo-run <domain>` | Interactive: tự phát hiện phase, đề xuất bước tiếp, chờ duyệt |
+| `/seo-auto-run <domain>` | Autonomous: chuỗi tất cả phases tự động, không cần xác nhận |
 
 ## Quản Lý Cài Đặt
 
@@ -32,6 +32,8 @@
 | `npx antigravity-seo-kit devices` | Xem danh sách thiết bị |
 | `npx antigravity-seo-kit devices remove <id>` | Xóa thiết bị |
 | `npx antigravity-seo-kit uninstall --confirm` | Gỡ cài đặt |
+| `npx antigravity-seo-kit --version` | Xem phiên bản CLI |
+| `npx antigravity-seo-kit --help` | Hiển thị trợ giúp |
 
 ## Truy Cập Trực Tiếp Kỹ Năng
 
