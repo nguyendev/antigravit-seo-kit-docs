@@ -6,7 +6,7 @@ Hướng dẫn từng bước cài đặt Antigravity SEO Kit, bao gồm cài An
 
 Antigravity là nền tảng AI agent của Google DeepMind. SEO Kit chạy bên trong Antigravity.
 
-1. Truy cập [deepmind.google/technologies/antigravity](https://deepmind.google/technologies/antigravity/)
+1. Truy cập [antigravity.google/download](https://antigravity.google/download)
 2. Tải và cài đặt Antigravity cho hệ điều hành của bạn (Windows, macOS, Linux)
 3. Đăng nhập bằng tài khoản Google
 
@@ -57,7 +57,7 @@ Kết quả mẫu:
 ```
 SEO Kit Installation Status
 
-  Version:      1.0.0
+  Version:      1.0.4
   License Key:  SK-****-****-XXXX
   Device ID:    abc123...
   Device Name:  DESKTOP-ABC

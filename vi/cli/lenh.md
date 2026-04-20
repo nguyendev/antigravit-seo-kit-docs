@@ -10,6 +10,7 @@
 | `/seo-strategy <domain>` | `seo-strategist` | Chiến lược, roadmap 30/60/90 |
 | `/seo-execute <domain>` | `seo-migration-expert` | Generate code fixes, content |
 | `/seo-monitor <domain>` | `seo-data-analyst` | Giám sát, A/B test |
+| `/seo-write <keyword>` | `seo-content-writer` | **Content pipeline 7 bước** (radar → deploy) |
 | `/seo-page <url>` | `seo-content-writer` | On-page analysis trang đơn |
 | `/seo-llm-visibility <domain>` | `seo-ai-specialist` | GEO: AI SOV, fan-out, brand sentiment |
 | `/seo-social-commerce <domain>` | `seo-growth-hacker` | Zalo, TikTok, Visual Search (VN market) |

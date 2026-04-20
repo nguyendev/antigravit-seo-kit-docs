@@ -8,22 +8,23 @@ Workflows là **cốt lõi** của SEO Kit. Mỗi workflow kích hoạt hàng lo
 📋 ONBOARD → 🔎 RESEARCH → 🔍 AUDIT → 🧠 STRATEGY → ⚡ EXECUTE → 📈 MONITOR → (lặp lại)
 ```
 
-## 12 Workflows
+## 13 Workflows
 
-### Static Workflows (10) — Agent cố định
+### Static Workflows (11) — Agent cố định
 
-| Workflow | Agent | Skills | Mục Đích |
-|----------|-------|--------|----------|
-| [`/seo-onboard`](seo-onboard.md) | `seo-strategist` | 4 | Khởi tạo, brand identity, personas |
-| [`/seo-research`](seo-research.md) | `seo-strategist` | 6 | Từ khóa, audience, prompt AI, fan-out |
-| [`/seo-audit`](seo-audit.md) | `seo-auditor` | 9 | Kiểm tra toàn diện website |
-| [`/seo-strategy`](seo-strategy.md) | `seo-strategist` | 12 | Chiến lược, roadmap 30/60/90 |
-| [`/seo-execute`](seo-execute.md) | `seo-migration-expert` | 10 | Tạo code fixes, nội dung, llms.txt |
-| [`/seo-monitor`](seo-monitor.md) | `seo-data-analyst` | 8 | Giám sát, A/B test, brand sentiment |
-| [`/seo-page`](seo-page.md) | `seo-content-writer` | 4 | Phân tích on-page trang đơn |
-| [`/seo-llm-visibility`](seo-llm-visibility.md) | `seo-ai-specialist` | 5 | GEO: SOV, fan-out, brand sentiment |
-| [`/seo-social-commerce`](seo-social-commerce.md) | `seo-growth-hacker` | 4 | Zalo, TikTok, Shopee Visual Search |
-| [`/seo-local-suite`](seo-local-suite.md) | `seo-local-expert` | 2 | Local SEO chuyên sâu |
+| Workflow | Agent | Mục Đích |
+|----------|-------|----------|
+| [`/seo-onboard`](seo-onboard.md) | `seo-strategist` | Khởi tạo, brand identity, personas |
+| [`/seo-research`](seo-research.md) | `seo-strategist` | Từ khóa, audience, prompt AI, fan-out |
+| [`/seo-audit`](seo-audit.md) | `seo-auditor` | Kiểm tra toàn diện website |
+| [`/seo-strategy`](seo-strategy.md) | `seo-strategist` | Chiến lược, roadmap 30/60/90 |
+| [`/seo-execute`](seo-execute.md) | `seo-migration-expert` | Tạo code fixes, nội dung, llms.txt |
+| [`/seo-monitor`](seo-monitor.md) | `seo-data-analyst` | Giám sát, A/B test, brand sentiment |
+| [`/seo-write`](seo-write.md) | `seo-content-writer` | **Content pipeline 7 bước** (radar → deploy) |
+| [`/seo-page`](seo-page.md) | `seo-content-writer` | Phân tích on-page trang đơn |
+| [`/seo-llm-visibility`](seo-llm-visibility.md) | `seo-ai-specialist` | GEO: SOV, fan-out, brand sentiment |
+| [`/seo-social-commerce`](seo-social-commerce.md) | `seo-growth-hacker` | Zalo, TikTok, Shopee Visual Search |
+| [`/seo-local-suite`](seo-local-suite.md) | `seo-local-expert` | Local SEO chuyên sâu |
 
 ### Dynamic Meta-Workflows (2) — Agent theo phase
 

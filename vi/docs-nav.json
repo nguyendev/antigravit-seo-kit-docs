@@ -83,6 +83,10 @@
           "path": "workflows/seo-local-suite.md"
         },
         {
+          "text": "/seo-write — Content Pipeline 7 Bước",
+          "path": "workflows/seo-write.md"
+        },
+        {
           "text": "/seo-page — Phân Tích Trang Đơn",
           "path": "workflows/seo-page.md"
         }
@@ -157,6 +161,10 @@
             {
               "text": "seo-page — Phân Tích Trang",
               "path": "ky-nang/ky-thuat/seo-page.md"
+            },
+            {
+              "text": "seo-audit — Kiểm Tra Toàn Diện",
+              "path": "ky-nang/ky-thuat/seo-audit.md"
             }
           ]
         },
@@ -183,6 +191,14 @@
             {
               "text": "seo-entity — Entity & Knowledge Graph",
               "path": "ky-nang/noi-dung/seo-entity.md"
+            },
+            {
+              "text": "seo-writer — Content Pipeline",
+              "path": "ky-nang/noi-dung/seo-writer.md"
+            },
+            {
+              "text": "seo-content-intel — Content Intelligence",
+              "path": "ky-nang/noi-dung/seo-content-intel.md"
             }
           ]
         },
@@ -247,6 +263,10 @@
             {
               "text": "seo-competitor-pages — Đối Thủ",
               "path": "ky-nang/nghien-cuu/seo-competitor-pages.md"
+            },
+            {
+              "text": "seo-plan — Lập Kế Hoạch SEO",
+              "path": "ky-nang/nghien-cuu/seo-plan.md"
             }
           ]
         },
@@ -345,6 +365,10 @@
             {
               "text": "seo-image-gen — AI Image Generation",
               "path": "ky-nang/giam-sat/seo-image-gen.md"
+            },
+            {
+              "text": "seo-dataforseo — DataForSEO API",
+              "path": "ky-nang/giam-sat/seo-dataforseo.md"
             }
           ]
         },
