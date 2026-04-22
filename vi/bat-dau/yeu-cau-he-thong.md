@@ -4,9 +4,9 @@
 
 | Yêu cầu | Phiên bản |
 |----------|-----------|
-| [Google Antigravity](https://deepmind.google/technologies/antigravity/) | Latest |
-| Node.js | ≥ 18 |
-| Python | ≥ 3.11 |
+| [Google Antigravity](https://antigravity.google/download) | Latest |
+| [Node.js](https://nodejs.org/) | ≥ 18 |
+| [Python](https://www.python.org/downloads/) | ≥ 3.11 |
 | License Key | Mua tại [antigravityseokit.solann.io](https://antigravityseokit.solann.io/) |
 
 ## Tùy Chọn (Nâng Cao)

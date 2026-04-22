@@ -94,3 +94,80 @@ npx antigravity-seo-kit uninstall --confirm
 ```
 
 > ⚠️ Lệnh này xóa toàn bộ SEO Kit files. Dữ liệu dự án trong `seo-projects/` **KHÔNG bị xóa**.
+
+---
+
+## Cài Đặt Python
+
+Antigravity SEO Kit sử dụng Python để chạy các script phân tích (audit, scoring, crawler). Bạn cần cài Python trước hoặc sau khi cài SEO Kit:
+
+**Cách 1: Cài trực tiếp**
+
+Tải và cài đặt Python tại [python.org/downloads](https://www.python.org/downloads/) (≥ 3.11).
+
+> ✅ Khi cài, **nhớ tick ☑ "Add Python to PATH"** để terminal nhận diện được lệnh `python`.
+
+**Cách 2: Cài extension Python trong Antigravity**
+
+1. Mở Antigravity
+2. Nhấn `Ctrl + Shift + X` để mở Extensions
+3. Tìm và cài **Python** (by Microsoft)
+
+Extension sẽ tự tải Python nếu chưa có.
+
+---
+
+## Extension Khuyên Dùng
+
+Mở panel Extensions (`Ctrl + Shift + X`) trong Antigravity và cài các extension sau:
+
+| Extension | Mục đích |
+|-----------|----------|
+| **Python** (Microsoft) | Chạy script phân tích SEO |
+| **Markdown Preview Enhanced** | Xem preview báo cáo markdown |
+| **AG Auto Click & Scroll** | Tự động retry khi lỗi + tự động duyệt |
+
+---
+
+## Xử Lý Lỗi Khi Cài Đặt
+
+### Lỗi: "npx is not recognized"
+
+```
+npx : The term 'npx' is not recognized as the name of a cmdlet,
+function, script file, or operable program.
+```
+
+**Nguyên nhân:** Chưa cài Node.js hoặc chưa thêm vào PATH.
+
+**Cách giải quyết:**
+
+1. Tải và cài đặt Node.js tại [nodejs.org](https://nodejs.org/) (chọn bản **LTS**)
+2. Khi cài, **giữ nguyên** tùy chọn "Add to PATH"
+3. **Đóng và mở lại** Antigravity (hoặc terminal) để nhận PATH mới
+4. Chạy lại lệnh `npx antigravity-seo-kit install --key=...`
+
+### Lỗi: "Running scripts is disabled on this system"
+
+```
+npx : File C:\Program Files\nodejs\npx.ps1 cannot be loaded because
+running scripts is disabled on this system.
+```
+
+**Nguyên nhân:** Windows PowerShell mặc định chặn chạy script bên ngoài.
+
+**Cách giải quyết (khuyên dùng):**
+
+1. **Đóng** cửa sổ terminal/PowerShell hiện tại
+2. Mở **Start Menu**, gõ `PowerShell`
+3. **Click chuột phải** vào Windows PowerShell → chọn **Run as Administrator**
+4. Dán lệnh sau và nhấn Enter:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+5. Gõ `Y` (hoặc `A`) và nhấn Enter để xác nhận
+6. Đóng cửa sổ Admin, quay lại Antigravity và chạy lại lệnh cài đặt
+
+> 💡 Việc này chỉ cần làm **một lần duy nhất**. Sau khi cấp quyền, tất cả lệnh `npx`, `npm` sẽ hoạt động bình thường.

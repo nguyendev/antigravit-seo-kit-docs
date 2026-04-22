@@ -5,7 +5,7 @@
 }
 ```
 
-Antigravity SEO Kit cung cấp **8 AI agents chuyên biệt**, **46 kỹ năng phân tích SEO**, và **13 workflows tự động** (11 static + 2 dynamic), tổ chức thành **vòng đời 5 giai đoạn**. Được xây dựng cho nền tảng [Google Antigravity](https://deepmind.google/technologies/antigravity/).
+Antigravity SEO Kit cung cấp **8 AI agents chuyên biệt**, **46 kỹ năng phân tích SEO**, và **13 workflows tự động** (11 static + 2 dynamic), tổ chức thành **vòng đời 5 giai đoạn**. Được xây dựng cho nền tảng [Google Antigravity](https://antigravity.google/download).
 
 ## Tại Sao Chọn Antigravity SEO Kit?
 
