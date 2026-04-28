@@ -4,6 +4,7 @@ Mở rộng SEO Kit với data providers bên ngoài.
 
 | Extension | Mô tả |
 |-----------|-------|
+| [Search Console MCP](search-console-mcp.md) | 30+ tools: GSC, Bing, GA4, SEO Intelligence, Cross-Platform |
 | [DataForSEO](dataforseo.md) | 22 lệnh: SERP, keywords, backlinks, AI visibility |
 | [Ahrefs](ahrefs.md) | DR/UR, backlink quality, content gap |
 | [Semrush](semrush.md) | Keyword gap, toxic links, domain analytics |

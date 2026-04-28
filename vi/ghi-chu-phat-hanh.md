@@ -1,112 +1,48 @@
 # Ghi Chú Phát Hành
 
-## v1.0.4 (2026-04-20)
+## v1.0.4 (2026-04-28)
 
 ### Mới
 
-- **8 AI Agents chuyên biệt** với routing tự động
-- **13 workflows** (11 static + 2 dynamic meta-workflows)
-- **46 skills** (49 with shared) — thêm `seo-writer`, `seo-content-intel`
-- **5 rules** restructured — `seo-core.md` hợp nhất anti-hallucination + security + data provider
-- `/seo-write` — **Content pipeline 7 bước**: radar → research → outline → draft → multimodal → validate → deploy
-- `seo-content-intel` — Intelligence layer cho DNA Context, prompt simulation, brand entity, multimodal check
-- Trust Tier hierarchy (Tier 0-6) cho content pipeline
+- **Search Console MCP**: Tích hợp `search-console-mcp` — 30+ MCP tools cho GSC, Bing, GA4
+  - SEO Intelligence: cannibalization, quick wins, lost queries, anomalies
+  - Bing Webmaster Tools: analytics, IndexNow, sitemap management
+  - GA4: page performance, traffic sources, conversions, realtime
+  - Cross-Platform: compare engines, opportunity matrix, traffic health
+- **Tier 1+**: Credential tier mới cho MCP mode
+- **Multi-Account**: Auto-routing cho agency quản lý nhiều domains
+
+---
+
+## v0.9.6 (2026-04-14)
+
+### Mới
+
+- **8 AI Agents chuyên biệt**: seo-auditor, seo-strategist, seo-content-writer, seo-ai-specialist, seo-local-expert, seo-growth-hacker, seo-data-analyst, seo-migration-expert
+- **12 workflows** (thêm `/seo-auto-run`)
+- Agent routing tự động — AI tự chọn agent phù hợp với yêu cầu
+
+### Sửa Lỗi
+
+- CLI name: `antigravity-seo-kit` (thay `ag-seo-kit`)
+- Cập nhật URLs: mua tại antigravityseokit.solann.io, quản lý tại app.solann.io
+
+---
+
+## v0.9.0 (2026-04-01)
+
+### Mới
+
+- 44 kỹ năng chuyên biệt (tăng từ 35)
+- 11 workflows (thêm `/seo-llm-visibility`, `/seo-social-commerce`)
+- Nhóm **Vietnam Market**: Zalo OA, Cốc Cốc AI, Video Transcript
+- Nhóm **AI & GEO**: fan-out generator, llms.txt, CiteMET, brand sentiment
+- Anti-hallucination system toàn diện
+- Smart routing (AI Search → GEO workflow, Social → Social Commerce workflow)
 
 ### Thay Đổi
 
-- Installer: assets download từ server thay vì embed trong npm package
-- Agent skill counts cập nhật: auditor (10), content-writer (7), ai-specialist (7), growth-hacker (9)
-- Shared skills concept: 3 skills chia sẻ giữa agents với mục đích khác nhau
-
----
-
-## v1.5.0 (2026-03-19)
-
-### Mới
-
-- Frontmatter fields: `user-invokable`, `argument-hint`, `allowed-tools` cho tất cả SKILL.md
-- Error handling sections cho tất cả SKILL.md
-- Plugin manifest: `.claude-plugin/plugin.json`
-
-### Sửa Lỗi
-
-- Em dash elimination — giảm AI detection signals
-- HTML comments trước frontmatter đã xóa
-
----
-
-## v1.4.0 (2026-03-12)
-
-### Bảo Mật
-
-- Install script: thay `irm | iex` bằng `git clone + powershell -File`
-- Version pinning cho install scripts
-
-### Mới
-
-- **GEO agent deployed**: 7 parallel agents (từ 6)
-- `--googlebot` flag trong `fetch_page.py` cho SPA/CSR
-
-### Sửa Lỗi
-
-- URL normalization: chấp nhận bare domains
-- FAQPage guidance cập nhật
-- Python requirement: 3.8+ → 3.10+
-
----
-
-## v1.3.0 (2026-03-06)
-
-### Mới
-
-- **Extension system**: `extensions/` directory
-- **DataForSEO extension**: 22 commands, 9 API modules
-- Plugin manifest cho plugin directory
-
----
-
-## v1.2.1 (2026-02-28)
-
-### Sửa Lỗi
-
-- User-Agent: đổi từ bot-style sang Chrome-like string
-- Custom `--user-agent` flag
-
----
-
-## v1.2.0 (2026-02-19)
-
-### Bảo Mật
-
-- SSRF prevention, path traversal prevention
-- venv-based pip install
-
-### Sửa Lỗi
-
-- YAML frontmatter parsing (8 files)
-- Windows installer improvements
-
----
-
-## v1.1.0 (2026-02-07)
-
-### Bảo Mật
-
-- urllib3 ≥2.6.3: CVE-2026-21441 (CVSS 8.9)
-- lxml ≥6.0.2, Pillow ≥12.1.0, playwright ≥1.55.1, requests ≥2.32.4
-
-### Mới
-
-- **GEO major enhancement**: brand mention analysis, AI crawler detection, llms.txt, passage-level citability
-- LCP Subparts analysis, Schema.org v29.4
-
----
-
-## v1.0.0 (2026-02-07)
-
-### Mới
-
-- Initial release
-- 9 skills, 6 subagents, industry templates
-- Core Web Vitals (LCP, INP, CLS)
-- E-E-A-T framework (September 2025 Quality Rater Guidelines)
+- Strategy workflow: 12 kỹ năng (từ 10)
+- Execute workflow: 10 kỹ năng (từ 6)
+- Monitor workflow: 8 kỹ năng (từ 6)
+- Research workflow: 6 kỹ năng (từ 5)

@@ -82,6 +82,7 @@ Xem [Hệ thống Agent](kien-truc/he-thong-agent.md) để biết chi tiết.
 
 | Extension | Chức Năng |
 |-----------|----------|
+| **[Search Console MCP](mo-rong/search-console-mcp.md)** | 30+ tools: GSC, Bing, GA4, SEO Intelligence |
 | **[DataForSEO](mo-rong/dataforseo.md)** | 22 lệnh: SERP, từ khóa, backlinks, AI visibility |
 | **[Ahrefs](mo-rong/ahrefs.md)** | DR/UR, backlink quality, content gap |
 | **[Semrush](mo-rong/semrush.md)** | Keyword gap, toxic links, domain analytics |
