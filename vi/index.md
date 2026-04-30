@@ -82,6 +82,7 @@ Xem [Hệ thống Agent](kien-truc/he-thong-agent.md) để biết chi tiết.
 
 | Extension | Chức Năng |
 |-----------|----------|
+| **[Solann API](mo-rong/solann-api.md)** | Mặc định — keyword volume, trends, CPC, competitor keywords |
 | **[Search Console MCP](mo-rong/search-console-mcp.md)** | 30+ tools: GSC, Bing, GA4, SEO Intelligence |
 | **[DataForSEO](mo-rong/dataforseo.md)** | 22 lệnh: SERP, từ khóa, backlinks, AI visibility |
 | **[Ahrefs](mo-rong/ahrefs.md)** | DR/UR, backlink quality, content gap |
@@ -90,7 +91,7 @@ Xem [Hệ thống Agent](kien-truc/he-thong-agent.md) để biết chi tiết.
 
 ## Phiên Bản
 
-Phiên bản hiện tại: **1.0.4**. Xem [Ghi chú phát hành](ghi-chu-phat-hanh.md).
+Phiên bản hiện tại: **1.0.6**. Xem [Ghi chú phát hành](ghi-chu-phat-hanh.md).
 
 ## Mua & Hỗ Trợ
 

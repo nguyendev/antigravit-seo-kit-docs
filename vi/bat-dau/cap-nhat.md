@@ -23,7 +23,7 @@ Output mẫu:
 ```
 SEO Kit Installation Status
 
-  Version:      1.0.4
+  Version:      1.0.6
   License Key:  SK-****-****-XXXX
   Device ID:    abc123...
   Device Name:  DESKTOP-ABC

@@ -15,7 +15,18 @@ Nghiên cứu từ khóa toàn diện: search volume, keyword difficulty, intent
 - **Keyword clustering**: Nhóm keywords theo intent và topic
 - **Difficulty analysis**: Đánh giá độ khó xếp hạng
 - **Long-tail discovery**: Tìm cơ hội từ khóa dài
-- **Search volume**: Ước tính volume (cần DataForSEO extension cho data chính xác)
+
+## Dữ Liệu Keyword
+
+| Dữ liệu | Nguồn | Ghi chú |
+|----------|-------|---------|
+| Search volume | [Solann API](../../mo-rong/solann-api.md) (mặc định) | Premium Google Ads data |
+| Keyword difficulty | Solann API | Competition index 0-100 |
+| CPC data | Solann API | Low + high bid |
+| 12-month trends | Solann API | Seasonality analysis |
+| Long-tail expansion | Solann API | Autocomplete + Alphabet Soup |
+
+> 💡 Solann API là data provider mặc định (#1). Nếu chưa cấu hình, hệ thống fall back sang HTML-only mode.
 
 ## Khi Nào Dùng
 

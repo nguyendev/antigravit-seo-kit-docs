@@ -405,6 +405,10 @@
           "isIndex": true
         },
         {
+          "text": "Solann API",
+          "path": "mo-rong/solann-api.md"
+        },
+        {
           "text": "Search Console MCP",
           "path": "mo-rong/search-console-mcp.md"
         },

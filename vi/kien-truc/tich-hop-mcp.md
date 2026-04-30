@@ -4,12 +4,13 @@ SEO Kit sử dụng MCP (Model Context Protocol) để kết nối dữ liệu b
 
 ## Data Providers
 
-| Provider | Dữ liệu | Loại |
-|----------|---------|------|
-| [Search Console MCP](../mo-rong/search-console-mcp.md) | GSC, Bing, GA4, SEO Intelligence — 30+ tools | MCP Server |
-| [DataForSEO](../mo-rong/dataforseo.md) | SERP, keywords, backlinks, on-page | Extension |
-| [Ahrefs](../mo-rong/ahrefs.md) | DR, backlinks, content gap | MCP Server |
-| [Semrush](../mo-rong/semrush.md) | Keyword gap, toxic links | MCP Remote |
+| Provider | Dữ liệu | Loại | Ưu tiên |
+|----------|---------|------|:-------:|
+| [Solann API](../mo-rong/solann-api.md) | Keyword volume, trends, CPC, competitor keywords | In-house API | #1 |
+| [Search Console MCP](../mo-rong/search-console-mcp.md) | GSC, Bing, GA4, SEO Intelligence — 30+ tools | MCP Server | #2 |
+| [DataForSEO](../mo-rong/dataforseo.md) | SERP, keywords, backlinks, on-page | Extension | #3 |
+| [Ahrefs](../mo-rong/ahrefs.md) | DR, backlinks, content gap | MCP Server | #4 |
+| [Semrush](../mo-rong/semrush.md) | Keyword gap, toxic links | MCP Remote | #4 |
 
 ## Tier System
 
@@ -36,6 +37,7 @@ Xem [hướng dẫn cài đặt chi tiết](../mo-rong/search-console-mcp.md).
 
 | Tag | Nguồn |
 |-----|-------|
+| `[VERIFIED:Solann]` | Dữ liệu từ Solann API |
 | `[VERIFIED:GSC-MCP]` | Dữ liệu từ search-console-mcp |
 | `[VERIFIED:GSC-Script]` | Dữ liệu từ Python scripts |
 | `[VERIFIED:DataForSEO]` | Dữ liệu từ DataForSEO API |
