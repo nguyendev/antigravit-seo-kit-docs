@@ -1,4 +1,4 @@
-# seo-geo-monitor — Giám Sát GEO
+﻿# seo-geo-monitor — Giám Sát GEO
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Giám sát AI citability score, theo dõi AI mentions, SOV (Share of Voice) trac
 
 ## Agent Phụ Trách
 
-`seo-ai-specialist` (skill #2/7)
+`seo-ai-search` (skill #2/7)
 
 ## Chức Năng Chính
 

@@ -1,4 +1,4 @@
-# seo-google — Google APIs (GSC, PageSpeed, GA4)
+﻿# seo-google — Google APIs (GSC, PageSpeed, GA4)
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tích hợp Google APIs: Search Console, PageSpeed Insights, CrUX, Indexing API,
 
 ## Agent Phụ Trách
 
-`seo-data-analyst` (skill #1/4)
+`seo-intelligence` (skill #1/4)
 
 ## Chức Năng Chính
 

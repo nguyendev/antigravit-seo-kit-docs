@@ -1,4 +1,4 @@
-# seo-video-transcript — TikTok & Short-Form Video SEO
+﻿# seo-video-transcript — TikTok & Short-Form Video SEO
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu SEO cho short-form video: TikTok SEO, YouTube Shorts, Instagram Reels,
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` (skill #7/9)
+`seo-multimedia` (skill #7/9)
 
 ## Chức Năng Chính
 

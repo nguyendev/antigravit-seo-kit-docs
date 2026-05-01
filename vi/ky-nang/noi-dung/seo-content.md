@@ -1,4 +1,4 @@
-# seo-content — Chất Lượng Nội Dung & E-E-A-T
+﻿# seo-content — Chất Lượng Nội Dung & E-E-A-T
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@
 
 ## Agent Phụ Trách
 
-`seo-auditor` (scoring) + `seo-content-writer` (creating) — **shared skill**
+`seo-technical-architect` (scoring) + `seo-creator` (creating) — **shared skill**
 
 ## Chức Năng Chính
 

@@ -1,4 +1,4 @@
-# seo-test — SEO A/B Testing
+﻿# seo-test — SEO A/B Testing
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Thử nghiệm SEO: A/B test titles, meta descriptions, tracking SEO experiments
 
 ## Agent Phụ Trách
 
-`seo-data-analyst` (skill #4/4)
+`seo-intelligence` (skill #4/4)
 
 ## Chức Năng Chính
 

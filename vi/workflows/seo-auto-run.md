@@ -21,7 +21,7 @@ Pipeline SEO tự động hoàn toàn. Khác với `/seo-run` (hỏi xác nhận
 
 ## Agent Phụ Trách
 
-`seo-data-analyst` — Kỹ năng: seo-google, seo-dataforseo, seo-logs, seo-test
+`seo-intelligence` — Kỹ năng: seo-solann, seo-google, seo-dataforseo, seo-logs, seo-test
 
 ## Quy Tắc An Toàn
 

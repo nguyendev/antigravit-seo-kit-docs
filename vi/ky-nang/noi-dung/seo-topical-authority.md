@@ -1,4 +1,4 @@
-# seo-topical-authority — Quyền Lực Chủ Đề
+﻿# seo-topical-authority — Quyền Lực Chủ Đề
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Xây dựng và đánh giá topical authority: content clusters, pillar pages, i
 
 ## Agent Phụ Trách
 
-`seo-strategist` (skill #4/6)
+`seo-content-authority` (skill #4/6)
 
 ## Chức Năng Chính
 

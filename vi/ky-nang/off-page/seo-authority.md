@@ -1,4 +1,4 @@
-# seo-authority — Xây Dựng Brand Authority
+﻿# seo-authority — Xây Dựng Brand Authority
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Xây dựng entity authority trên nhiều nền tảng: cross-platform presence
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` (skill #2/9)
+`seo-multimedia` (skill #2/9)
 
 ## Chức Năng Chính
 

@@ -1,4 +1,4 @@
-# seo-prompt-research — Nghiên Cứu Prompt AI
+﻿# seo-prompt-research — Nghiên Cứu Prompt AI
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Nghiên cứu cách users prompt AI về topics: conversational query patterns, 
 
 ## Agent Phụ Trách
 
-`seo-ai-specialist` (skill #7/7)
+`seo-ai-search` (skill #7/7)
 
 ## Chức Năng Chính
 

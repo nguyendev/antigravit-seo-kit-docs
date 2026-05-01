@@ -1,4 +1,4 @@
-# seo-migration — Di Chuyển Website
+﻿# seo-migration — Di Chuyển Website
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Quản lý di chuyển website: domain migration, CMS migration, URL structure c
 
 ## Agent Phụ Trách
 
-`seo-migration-expert` (skill #1/2)
+`seo-technical-architect` (skill #1/2)
 
 ## Chức Năng Chính
 

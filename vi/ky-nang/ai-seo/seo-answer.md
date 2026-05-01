@@ -1,4 +1,4 @@
-# seo-answer — Tối Ưu Câu Trả Lời AI
+﻿# seo-answer — Tối Ưu Câu Trả Lời AI
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu nội dung cho AI answer engines: passage scoring, featured snippet, a
 
 ## Agent Phụ Trách
 
-`seo-ai-specialist` (skill #5/7)
+`seo-ai-search` (skill #5/7)
 
 ## Chức Năng Chính
 

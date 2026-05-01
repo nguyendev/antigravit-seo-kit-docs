@@ -1,4 +1,4 @@
-# seo-image-gen — AI Image Generation
+﻿# seo-image-gen — AI Image Generation
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tạo hình ảnh SEO bằng AI: OG images, featured images, social images, info
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` (skill #8/9)
+`seo-multimedia` (skill #8/9)
 
 ## Chức Năng Chính
 

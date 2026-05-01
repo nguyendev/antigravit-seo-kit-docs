@@ -14,7 +14,7 @@ Deep-dive workflow cho social commerce tại Việt Nam (2026). Tối ưu chuỗ
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` — 8 kỹ năng off-page & distribution
+`seo-multimedia` — 4 kỹ năng multimedia & distribution
 
 ## Kỹ Năng Kích Hoạt (4)
 

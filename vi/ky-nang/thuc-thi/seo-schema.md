@@ -1,4 +1,4 @@
-# seo-schema — Schema Markup & Structured Data
+﻿# seo-schema — Schema Markup & Structured Data
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tạo và kiểm tra Schema.org markup: JSON-LD generation, rich snippet targeti
 
 ## Agent Phụ Trách
 
-`seo-auditor` (skill #5/10)
+`seo-technical-architect` (skill #5/10)
 
 ## Chức Năng Chính
 

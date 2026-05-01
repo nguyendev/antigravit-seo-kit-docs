@@ -1,4 +1,4 @@
-# seo-visual-search — Visual Search Optimization
+﻿# seo-visual-search — Visual Search Optimization
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu cho visual search: Google Lens, Pinterest Lens, Shopee Visual Search, 
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` (skill #9/9)
+`seo-multimedia` (skill #9/9)
 
 ## Chức Năng Chính
 

@@ -1,4 +1,4 @@
-# Quy Tắc Vận Hành (5 Rules)
+﻿# Quy Tắc Vận Hành (5 Rules)
 
 SEO Kit có 5 quy tắc governance, đảm bảo chất lượng đầu ra và an toàn dữ liệu.
 
@@ -22,14 +22,14 @@ Quy tắc tổng hợp quan trọng nhất, bao gồm 6 module:
 
 | Loại | Trigger | Agent |
 |------|---------|-------|
-| AUDIT | "kiểm tra", "audit" | `seo-auditor` |
-| RESEARCH | "từ khóa", "keyword" | `seo-strategist` |
-| CONTENT | "viết bài", "write article" | `seo-content-writer` |
-| STRATEGY | "chiến lược", "roadmap" | `seo-strategist` |
-| MONITORING | "theo dõi", "rankings" | `seo-data-analyst` |
-| LOCAL | "local SEO", "bản đồ" | `seo-local-expert` |
-| AI VISIBILITY | "ChatGPT", "GEO" | `seo-ai-specialist` |
-| PAGE | "tối ưu trang", "check URL" | `seo-content-writer` |
+| AUDIT | "kiểm tra", "audit" | `seo-technical-architect` |
+| RESEARCH | "từ khóa", "keyword" | `seo-content-authority` |
+| CONTENT | "viết bài", "write article" | `seo-creator` |
+| STRATEGY | "chiến lược", "roadmap" | `seo-content-authority` |
+| MONITORING | "theo dõi", "rankings" | `seo-intelligence` |
+| LOCAL | "local SEO", "bản đồ" | `seo-local-commerce` |
+| AI VISIBILITY | "ChatGPT", "GEO" | `seo-ai-search` |
+| PAGE | "tối ưu trang", "check URL" | `seo-creator` |
 
 **2. Anti-Hallucination Protocol** — Cấm bịa dữ liệu:
 

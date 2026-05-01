@@ -1,4 +1,4 @@
-# seo-brand-sentiment — Brand Sentiment Monitoring
+﻿# seo-brand-sentiment — Brand Sentiment Monitoring
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Giám sát brand sentiment: theo dõi thái độ AI và internet về thương 
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` (skill #5/9)
+`seo-multimedia` (skill #5/9)
 
 ## Chức Năng Chính
 

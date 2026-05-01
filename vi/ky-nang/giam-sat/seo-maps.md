@@ -1,4 +1,4 @@
-# seo-maps — Google Maps & Geo-Grid
+﻿# seo-maps — Google Maps & Geo-Grid
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tích Google Maps ranking: geo-grid analysis, local ranking grid, map pack
 
 ## Agent Phụ Trách
 
-`seo-local-expert` (skill #2/3)
+`seo-local-commerce` (skill #2/3)
 
 ## Chức Năng Chính
 

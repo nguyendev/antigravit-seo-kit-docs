@@ -1,4 +1,4 @@
-# seo-programmatic — Programmatic SEO (pSEO)
+﻿# seo-programmatic — Programmatic SEO (pSEO)
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tạo nội dung ở quy mô lớn: template pages, auto-generated content, scal
 
 ## Agent Phụ Trách
 
-`seo-content-writer` (skill #6/7)
+`seo-creator` (skill #6/7)
 
 ## Chức Năng Chính
 

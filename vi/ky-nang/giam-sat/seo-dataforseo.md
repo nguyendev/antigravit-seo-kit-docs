@@ -1,4 +1,4 @@
-# seo-dataforseo — DataForSEO API Integration
+﻿# seo-dataforseo — DataForSEO API Integration
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tích hợp DataForSEO API: live SERP, keyword volume, backlinks, AI visibility 
 
 ## Agent Phụ Trách
 
-`seo-data-analyst` (skill #2/4)
+`seo-intelligence` (skill #2/4)
 
 ## Chức Năng Chính
 

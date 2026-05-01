@@ -1,4 +1,4 @@
-# seo-reddit-scraper — Community Intelligence
+﻿# seo-reddit-scraper — Community Intelligence
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tích cộng đồng: Reddit scraping, Quora analysis, social listening, f
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` (skill #4/9)
+`seo-multimedia` (skill #4/9)
 
 ## Chức Năng Chính
 

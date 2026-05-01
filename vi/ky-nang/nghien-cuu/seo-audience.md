@@ -1,4 +1,4 @@
-# seo-audience — Đối Tượng Mục Tiêu
+﻿# seo-audience — Đối Tượng Mục Tiêu
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tích đối tượng mục tiêu: personas, customer journey, user intent
 
 ## Agent Phụ Trách
 
-`seo-strategist` (skill #5/6)
+`seo-content-authority` (skill #5/6)
 
 ## Chức Năng Chính
 

@@ -1,4 +1,4 @@
-# seo-fix — Sửa Lỗi Kỹ Thuật Tự Động
+﻿# seo-fix — Sửa Lỗi Kỹ Thuật Tự Động
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tự động tạo bản sửa lỗi kỹ thuật SEO: meta tags, schema, robots
 
 ## Agent Phụ Trách
 
-`seo-migration-expert` (skill #2/2)
+`seo-technical-architect` (skill #2/2)
 
 ## Chức Năng Chính
 

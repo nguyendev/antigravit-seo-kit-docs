@@ -14,7 +14,7 @@ Deep-dive workflow cho GEO (Generative Engine Optimization). Đo lường Share 
 
 ## Agent Phụ Trách
 
-`seo-ai-specialist` — 6 kỹ năng GEO/AI
+`seo-ai-search` — 6 kỹ năng GEO/AI
 
 ## Kỹ Năng Kích Hoạt (5)
 

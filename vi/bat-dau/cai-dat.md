@@ -1,4 +1,4 @@
-# Cài Đặt Chi Tiết
+﻿# Cài Đặt Chi Tiết
 
 Hướng dẫn từng bước cài đặt Antigravity SEO Kit, bao gồm cài Antigravity, tạo project, và kích hoạt SEO Kit.
 
@@ -57,7 +57,7 @@ Kết quả mẫu:
 ```
 SEO Kit Installation Status
 
-  Version:      1.0.6
+  Version:      1.0.7
   License Key:  SK-****-****-XXXX
   Device ID:    abc123...
   Device Name:  DESKTOP-ABC

@@ -1,5 +1,23 @@
 # Ghi Chú Phát Hành
 
+## v1.0.7 (2026-05-01)
+
+### Thay Đổi Lớn
+
+- **9-Agent 3-Layer Architecture**: Tái cấu trúc từ 8 agents flat → 9 agents 3-layer (Meta + Foundation + Surface + Enabler)
+  - 🎯 **Meta**: `seo-orchestrator` (MỚI)
+  - 🏗️ **Foundation**: `seo-technical-architect`, `seo-content-authority`, `seo-intelligence`
+  - 🌐 **Surface**: `seo-ai-search`, `seo-multimedia`, `seo-local-commerce`
+  - 🔧 **Enabler**: `seo-creator`, `seo-data-provider` (MỚI)
+- **Agent đổi tên**: `seo-auditor` → `seo-technical-architect`, `seo-strategist` → `seo-content-authority`, `seo-content-writer` → `seo-creator`, `seo-ai-specialist` → `seo-ai-search`, `seo-growth-hacker` → `seo-multimedia`, `seo-data-analyst` → `seo-intelligence`, `seo-local-expert` → `seo-local-commerce`
+- **Agent removed**: `seo-migration-expert` (merged vào `seo-technical-architect`)
+- **Skills consolidated**: 46 → 42 unique, 49 → 53 with shared, 3 → 5 shared skills
+- **Content pipeline**: 7 bước → 5 bước (streamlined)
+- **Skill merges**: `seo-llmstxt` + `seo-citemet` → `seo-llm-signals`, `seo-social-zalo` + `seo-reddit-scraper` → `seo-social`, `seo-brand-sentiment` → absorbed into `seo-authority`
+- **New skill**: `seo-information-gain` (shared between `seo-content-authority` & `seo-creator`)
+
+---
+
 ## v1.0.6 (2026-04-30)
 
 ### Mới

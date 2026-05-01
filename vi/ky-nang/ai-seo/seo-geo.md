@@ -1,4 +1,4 @@
-# seo-geo — Tối Ưu AI Search (GEO)
+﻿# seo-geo — Tối Ưu AI Search (GEO)
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Generative Engine Optimization: tối ưu cho AI search (Google AI Overviews, Ch
 
 ## Agent Phụ Trách
 
-`seo-auditor` (citability check) + `seo-ai-specialist` (GEO strategy) — **shared skill**
+`seo-technical-architect` (citability check) + `seo-ai-search` (GEO strategy) — **shared skill**
 
 ## Chức Năng Chính
 

@@ -1,4 +1,4 @@
-# seo-logs — Server Log Analysis
+﻿# seo-logs — Server Log Analysis
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tích server logs: crawl budget, bot monitoring, crawl analysis, AI bot de
 
 ## Agent Phụ Trách
 
-`seo-data-analyst` (skill #3/4)
+`seo-intelligence` (skill #3/4)
 
 ## Chức Năng Chính
 

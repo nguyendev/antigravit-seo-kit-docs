@@ -1,4 +1,4 @@
-# seo-page — Phân Tích Trang Đơn
+﻿# seo-page — Phân Tích Trang Đơn
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tích on-page SEO cho một URL cụ thể: title, meta, headings, content
 
 ## Agent Phụ Trách
 
-`seo-content-writer` (skill #3/7)
+`seo-creator` (skill #3/7)
 
 ## Chức Năng Chính
 

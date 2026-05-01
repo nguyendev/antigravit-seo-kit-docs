@@ -14,7 +14,7 @@ Pipeline tạo nội dung SEO 7 bước, từ nghiên cứu đến deploy. Agent
 
 ## Agent Phụ Trách
 
-`seo-content-writer` — 7 kỹ năng
+`seo-creator` — 4 kỹ năng
 
 ## Pipeline 7 Bước
 

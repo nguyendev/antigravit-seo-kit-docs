@@ -1,4 +1,4 @@
-# seo-competitor-pages — Phân Tích Đối Thủ
+﻿# seo-competitor-pages — Phân Tích Đối Thủ
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tích trang đối thủ: comparison pages, vs pages, alternative pages, c
 
 ## Agent Phụ Trách
 
-`seo-strategist` (skill #6/6)
+`seo-content-authority` (skill #6/6)
 
 ## Chức Năng Chính
 

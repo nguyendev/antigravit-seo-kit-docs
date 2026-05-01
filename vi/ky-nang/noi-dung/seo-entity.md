@@ -1,4 +1,4 @@
-# seo-entity — Entity & Knowledge Graph
+﻿# seo-entity — Entity & Knowledge Graph
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu entity SEO: Named Entity Recognition, Knowledge Graph presence, sameAs
 
 ## Agent Phụ Trách
 
-`seo-content-writer` (skill #5/7)
+`seo-creator` (skill #5/7)
 
 ## Chức Năng Chính
 

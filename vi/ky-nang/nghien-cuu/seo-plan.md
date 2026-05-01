@@ -1,4 +1,4 @@
-# seo-plan — Lập Kế Hoạch SEO
+﻿# seo-plan — Lập Kế Hoạch SEO
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Lập kế hoạch SEO: strategy planning, content calendar, implementation road
 
 ## Agent Phụ Trách
 
-`seo-strategist` (skill #1/6)
+`seo-content-authority` (skill #1/6)
 
 ## Chức Năng Chính
 

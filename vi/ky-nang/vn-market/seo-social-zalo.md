@@ -1,4 +1,4 @@
-# seo-social-zalo — Zalo & Social Commerce Vietnam
+﻿# seo-social-zalo — Zalo & Social Commerce Vietnam
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu cho Zalo OA, Zalo Mini App, ZNS (Zalo Notification Service), và các 
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` (skill #3/9)
+`seo-multimedia` (skill #3/9)
 
 ## Chức Năng Chính
 

@@ -1,4 +1,4 @@
-# seo-backlink — Link Building & Analysis
+﻿# seo-backlink — Link Building & Analysis
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tích và xây dựng backlinks: toxic link detection, anchor text analysi
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` (skill #1/9)
+`seo-multimedia` (skill #1/9)
 
 ## Chức Năng Chính
 

@@ -1,4 +1,4 @@
-# seo-agentic — SEO Cho AI Agent
+﻿# seo-agentic — SEO Cho AI Agent
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu website cho AI agents: Action Schema, API discoverability, A2A readine
 
 ## Agent Phụ Trách
 
-`seo-ai-specialist` (skill #3/7)
+`seo-ai-search` (skill #3/7)
 
 ## Chức Năng Chính
 

@@ -1,4 +1,4 @@
-# seo-sitemap — Sitemap Analysis
+﻿# seo-sitemap — Sitemap Analysis
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tích và kiểm tra XML sitemap: cấu trúc, URLs, lastmod, priority, co
 
 ## Agent Phụ Trách
 
-`seo-auditor` (skill #7/10)
+`seo-technical-architect` (skill #7/10)
 
 ## Chức Năng Chính
 

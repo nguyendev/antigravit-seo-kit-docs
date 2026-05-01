@@ -1,4 +1,4 @@
-# seo-keyword — Nghiên Cứu Từ Khóa
+﻿# seo-keyword — Nghiên Cứu Từ Khóa
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Nghiên cứu từ khóa toàn diện: search volume, keyword difficulty, intent
 
 ## Agent Phụ Trách
 
-`seo-strategist` (skill #2/6)
+`seo-content-authority` (skill #2/6)
 
 ## Chức Năng Chính
 

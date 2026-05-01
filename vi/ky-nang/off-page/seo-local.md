@@ -1,4 +1,4 @@
-# seo-local — Local SEO
+﻿# seo-local — Local SEO
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu Local SEO: Google Business Profile (GBP), NAP consistency, local citat
 
 ## Agent Phụ Trách
 
-`seo-local-expert` (skill #1/3)
+`seo-local-commerce` (skill #1/3)
 
 ## Chức Năng Chính
 

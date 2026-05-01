@@ -1,4 +1,4 @@
-# Xử Lý Sự Cố
+﻿# Xử Lý Sự Cố
 
 ## Lỗi Cài Đặt
 
@@ -42,7 +42,7 @@
 
 ### Agent không đúng
 
-- Gõ `@seo-auditor` để load agent cụ thể
+- Gõ `@seo-technical-architect` để load agent cụ thể
 - Xem [Routing tự động](kien-truc/he-thong-agent.md#routing-tự-động)
 
 ## Liên Hệ Hỗ Trợ

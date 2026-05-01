@@ -15,20 +15,25 @@ Mỗi kỹ năng là một thư mục trong `.agent/skills/` chứa SKILL.md và
 
 | Metric | Giá trị |
 |--------|---------|
-| **Unique skills** | 44 |
-| **With shared** | 47 (3 skills chia sẻ giữa agents) |
+| **Unique skills** | 42 |
+| **With shared** | 53 (5 skills chia sẻ giữa agents) |
 | **Orphan skills** | 0 ✅ |
-| **Agent:Skill ratio** | 1:5.5 |
+| **Skills with scripts** | 40 / 42 |
+| **Executable scripts** | 78 |
+| **Instruction-only** | 6 (`seo-audit`, `seo-competitor-pages`, `seo-dataforseo`, `seo-local`, `seo-maps`, `seo-plan`) |
+| **Agent:Skill ratio** | 1:5.1 |
 
-## Shared Skills (3)
+## Shared Skills (5)
 
-3 skills được chia sẻ giữa 2 agents — cùng skill nhưng mục đích khác nhau:
+5 skills được chia sẻ giữa agents — cùng skill nhưng mục đích khác nhau:
 
-| Skill | Agent A | Agent B |
-|-------|---------|---------|
-| `seo-content` | `seo-auditor` (chấm điểm) | `seo-content-writer` (tạo mới) |
-| `seo-source-context` | `seo-auditor` (kiểm tra) | `seo-content-writer` (xây dựng) |
-| `seo-geo` | `seo-auditor` (citability check) | `seo-ai-specialist` (GEO strategy) |
+| Skill | Agents | Mục đích |
+|-------|--------|---------|
+| `seo-content` | `seo-technical-architect` (scoring) | `seo-content-authority` (strategy) |
+| `seo-solann` | `seo-content-authority` (strategy volume) | `seo-intelligence` (monitoring) | `seo-data-provider` (data access) |
+| `seo-google` | `seo-intelligence` (analytics) | `seo-data-provider` (data access) |
+| `seo-dataforseo` | `seo-intelligence` (analysis) | `seo-data-provider` (data access) |
+| `seo-information-gain` | `seo-content-authority` (pre-creation IG strategy) | `seo-creator` (post-creation IG validation) |
 
 ## Cách Hoạt Động
 
@@ -39,5 +44,5 @@ Mỗi kỹ năng là một thư mục trong `.agent/skills/` chứa SKILL.md và
 
 ## Xem Thêm
 
-- [44 kỹ năng chi tiết](../ky-nang/index.md)
+- [42 kỹ năng chi tiết](../ky-nang/index.md)
 - [Hệ thống Agent](he-thong-agent.md) — mapping skills → agents

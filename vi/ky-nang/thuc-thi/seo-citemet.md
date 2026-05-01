@@ -1,4 +1,4 @@
-# seo-citemet — Citation Metrics (CiteMET)
+﻿# seo-citemet — Citation Metrics (CiteMET)
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tạo CiteMET — nút chia sẻ cho AI: AI share button, prompt payload, "Share
 
 ## Agent Phụ Trách
 
-`seo-ai-specialist` (skill #6/7)
+`seo-ai-search` (skill #6/7)
 
 ## Chức Năng Chính
 

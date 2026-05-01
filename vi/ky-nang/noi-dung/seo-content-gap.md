@@ -1,4 +1,4 @@
-# seo-content-gap — Phân Tích Khoảng Trống Nội Dung
+﻿# seo-content-gap — Phân Tích Khoảng Trống Nội Dung
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phát hiện khoảng trống nội dung so với đối thủ: keyword cannibal
 
 ## Agent Phụ Trách
 
-`seo-strategist` (skill #3/6)
+`seo-content-authority` (skill #3/6)
 
 ## Chức Năng Chính
 

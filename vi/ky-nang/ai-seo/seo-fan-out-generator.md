@@ -1,4 +1,4 @@
-# seo-fan-out-generator — RAG Sub-queries
+﻿# seo-fan-out-generator — RAG Sub-queries
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tách queries thành RAG sub-queries: dự đoán cách AI retrieval syste
 
 ## Agent Phụ Trách
 
-`seo-content-writer` (skill #7/7)
+`seo-creator` (skill #7/7)
 
 ## Chức Năng Chính
 

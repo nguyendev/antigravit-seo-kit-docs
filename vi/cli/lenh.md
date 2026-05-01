@@ -1,20 +1,20 @@
-# Danh Sách Lệnh
+﻿# Danh Sách Lệnh
 
 ## Lifecycle Workflows (Static — Agent cố định)
 
 | Lệnh | Agent | Mô tả |
 |------|-------|-------|
-| `/seo-onboard <domain>` | `seo-strategist` | Khởi tạo dự án, brand identity |
-| `/seo-research <domain>` | `seo-strategist` | Từ khóa, audience, prompt patterns |
-| `/seo-audit <domain>` | `seo-auditor` | Kiểm tra toàn diện, Health Score |
-| `/seo-strategy <domain>` | `seo-strategist` | Chiến lược, roadmap 30/60/90 |
-| `/seo-execute <domain>` | `seo-migration-expert` | Generate code fixes, content |
-| `/seo-monitor <domain>` | `seo-data-analyst` | Giám sát, A/B test |
-| `/seo-write <keyword>` | `seo-content-writer` | **Content pipeline 7 bước** (radar → deploy) |
-| `/seo-page <url>` | `seo-content-writer` | On-page analysis trang đơn |
-| `/seo-llm-visibility <domain>` | `seo-ai-specialist` | GEO: AI SOV, fan-out, brand sentiment |
-| `/seo-social-commerce <domain>` | `seo-growth-hacker` | Zalo, TikTok, Visual Search (VN market) |
-| `/seo-local-suite <domain>` | `seo-local-expert` | Local SEO: GBP, Maps |
+| `/seo-onboard <domain>` | `seo-content-authority` | Khởi tạo dự án, brand identity |
+| `/seo-research <domain>` | `seo-content-authority` | Từ khóa, audience, prompt patterns |
+| `/seo-audit <domain>` | `seo-technical-architect` | Kiểm tra toàn diện, Health Score |
+| `/seo-strategy <domain>` | `seo-content-authority` | Chiến lược, roadmap 30/60/90 |
+| `/seo-execute <domain>` | `seo-technical-architect` | Generate code fixes, content |
+| `/seo-monitor <domain>` | `seo-intelligence` | Giám sát, A/B test |
+| `/seo-write <keyword>` | `seo-creator` | **Content pipeline 7 bước** (radar → deploy) |
+| `/seo-page <url>` | `seo-creator` | On-page analysis trang đơn |
+| `/seo-llm-visibility <domain>` | `seo-ai-search` | GEO: AI SOV, fan-out, brand sentiment |
+| `/seo-social-commerce <domain>` | `seo-multimedia` | Zalo, TikTok, Visual Search (VN market) |
+| `/seo-local-suite <domain>` | `seo-local-commerce` | Local SEO: GBP, Maps |
 
 ## Dynamic Meta-Workflows (Agent theo phase)
 

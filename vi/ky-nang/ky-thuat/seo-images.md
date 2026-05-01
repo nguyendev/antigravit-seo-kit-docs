@@ -1,4 +1,4 @@
-# seo-images — Tối Ưu Hình Ảnh
+﻿# seo-images — Tối Ưu Hình Ảnh
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu hóa hình ảnh cho SEO: alt text, formats, lazy loading, CLS prevent
 
 ## Agent Phụ Trách
 
-`seo-auditor` (skill #6/10)
+`seo-technical-architect` (skill #6/10)
 
 ## Chức Năng Chính
 

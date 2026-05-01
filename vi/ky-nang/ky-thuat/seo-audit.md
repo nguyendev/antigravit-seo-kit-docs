@@ -1,12 +1,12 @@
-# seo-audit — Kiểm Tra Toàn Diện Website
+﻿# seo-audit — Kiểm Tra Toàn Diện Website
 
 ## Mô Tả
 
-Orchestration skill cho audit toàn diện: phối hợp tất cả skills của `seo-auditor` để tạo báo cáo Health Score tổng hợp.
+Orchestration skill cho audit toàn diện: phối hợp tất cả skills của `seo-technical-architect` để tạo báo cáo Health Score tổng hợp.
 
 ## Agent Phụ Trách
 
-`seo-auditor` (skill #2/10 — orchestrator)
+`seo-technical-architect` (skill #2/10 — orchestrator)
 
 ## Chức Năng Chính
 

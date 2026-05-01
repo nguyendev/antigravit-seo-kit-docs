@@ -1,4 +1,4 @@
-# Solann API — Keyword Data Provider
+﻿# Solann API — Keyword Data Provider
 
 Data provider mặc định của SEO Kit — cung cấp **premium Google Ads keyword data** tối ưu cho AI agent.
 
@@ -12,7 +12,7 @@ Data provider mặc định của SEO Kit — cung cấp **premium Google Ads ke
 | Scripts | 2 (keyword_volume.py, keyword_suggest.py) |
 | Yêu cầu | API key (có sẵn khi mua license) |
 | Dependencies | Không (Python stdlib only) |
-| Agent | `seo-strategist`, `seo-data-analyst` |
+| Agent | `seo-content-authority`, `seo-intelligence` |
 
 ## Tại Sao Solann Là Mặc Định?
 

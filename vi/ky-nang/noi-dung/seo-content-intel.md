@@ -1,4 +1,4 @@
-# seo-content-intel — Content Intelligence
+﻿# seo-content-intel — Content Intelligence
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Lớp intelligence cho content 2026: DNA Context radar, prompt simulation, brand
 
 ## Agent Phụ Trách
 
-`seo-content-writer` (dùng chung bởi nhiều workflows)
+`seo-creator` (dùng chung bởi nhiều workflows)
 
 ## Chức Năng Chính (5 subcommands)
 

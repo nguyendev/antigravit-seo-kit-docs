@@ -1,4 +1,4 @@
-# seo-coccoc-optimizer — Cốc Cốc SEO
+﻿# seo-coccoc-optimizer — Cốc Cốc SEO
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu cho Cốc Cốc — công cụ tìm kiếm lớn nhất Việt Nam: Vi
 
 ## Agent Phụ Trách
 
-`seo-local-expert` (skill #3/3)
+`seo-local-commerce` (skill #3/3)
 
 ## Chức Năng Chính
 

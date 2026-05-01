@@ -1,4 +1,4 @@
-# seo-video — YouTube SEO
+﻿# seo-video — YouTube SEO
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tối ưu SEO cho video YouTube: video schema, VideoObject markup, YouTube ranki
 
 ## Agent Phụ Trách
 
-`seo-growth-hacker` (skill #6/9)
+`seo-multimedia` (skill #6/9)
 
 ## Chức Năng Chính
 

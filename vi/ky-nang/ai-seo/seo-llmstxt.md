@@ -1,4 +1,4 @@
-# seo-llmstxt — LLMs.txt Generator
+﻿# seo-llmstxt — LLMs.txt Generator
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Tạo và tối ưu file `llms.txt` — tiêu chuẩn cho AI bots hiểu cấu t
 
 ## Agent Phụ Trách
 
-`seo-ai-specialist` (skill #4/7)
+`seo-ai-search` (skill #4/7)
 
 ## Chức Năng Chính
 

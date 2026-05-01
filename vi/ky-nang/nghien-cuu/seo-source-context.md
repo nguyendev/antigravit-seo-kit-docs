@@ -1,4 +1,4 @@
-# seo-source-context — Ngữ Cảnh Nguồn (DNA Context)
+﻿# seo-source-context — Ngữ Cảnh Nguồn (DNA Context)
 
 ## Mô Tả
 
@@ -6,7 +6,7 @@ Phân tích và xây dựng Source Context (DNA Context): semantic anchor, autho
 
 ## Agent Phụ Trách
 
-`seo-auditor` (checking) + `seo-content-writer` (building) — **shared skill**
+`seo-technical-architect` (checking) + `seo-creator` (building) — **shared skill**
 
 ## Chức Năng Chính
 
