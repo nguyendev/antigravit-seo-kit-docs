@@ -109,6 +109,18 @@
           "text": "Vòng Đời Đầy Đủ (5 Phase)",
           "path": "huong-dan/vong-doi-day-du",
           "isIndex": true
+        },
+        {
+          "text": "Lập Trình Web Chuẩn SEO",
+          "path": "huong-dan/lap-trinh-web-chuan-seo.md"
+        },
+        {
+          "text": "Viết Bài Với Information Gain",
+          "path": "huong-dan/viet-bai-information-gain.md"
+        },
+        {
+          "text": "Tích Hợp Tự Động Hóa CI/CD",
+          "path": "huong-dan/tich-hop-cicd.md"
         }
       ]
     },
@@ -133,6 +145,20 @@
           "text": "Tổng Quan",
           "path": "ky-nang",
           "isIndex": true
+        },
+        {
+          "text": "Xây Dựng Web Chuẩn SEO",
+          "items": [
+            {
+              "text": "Tổng Quan Web Dev",
+              "path": "ky-nang/xay-dung-web",
+              "isIndex": true
+            },
+            {
+              "text": "web-react — React Chuẩn SEO",
+              "path": "ky-nang/xay-dung-web/react-chuan-seo.md"
+            }
+          ]
         },
         {
           "text": "Technical SEO",
@@ -169,7 +195,7 @@
           ]
         },
         {
-          "text": "Content SEO",
+          "text": "Nội Dung & Chiến Lược",
           "items": [
             {
               "text": "Tổng Quan",
@@ -199,6 +225,10 @@
             {
               "text": "seo-content-intel — Content Intelligence",
               "path": "ky-nang/noi-dung/seo-content-intel.md"
+            },
+            {
+              "text": "seo-information-gain — Information Gain",
+              "path": "ky-nang/noi-dung/seo-information-gain.md"
             }
           ]
         },
@@ -391,6 +421,16 @@
             {
               "text": "seo-video-transcript — Video Transcript",
               "path": "ky-nang/vn-market/seo-video-transcript.md"
+            }
+          ]
+        },
+        {
+          "text": "Kỹ Năng Nền Tảng (Shared)",
+          "items": [
+            {
+              "text": "Tổng Quan Shared",
+              "path": "ky-nang/shared",
+              "isIndex": true
             }
           ]
         }

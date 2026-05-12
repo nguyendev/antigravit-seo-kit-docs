@@ -1,6 +1,6 @@
-﻿# Quy Tắc Vận Hành (5 Rules)
+# Quy Tắc Vận Hành (7 Rules)
 
-SEO Kit có 5 quy tắc governance, đảm bảo chất lượng đầu ra và an toàn dữ liệu.
+SEO Kit có 7 quy tắc governance (bao gồm SEO và Web Development), đảm bảo chất lượng đầu ra và an toàn dữ liệu.
 
 ## Tổng Quan
 
@@ -11,6 +11,8 @@ SEO Kit có 5 quy tắc governance, đảm bảo chất lượng đầu ra và a
 | `seo-domain-project.md` | Project structure, phase state machine, `project.json` schema | `model_decision` |
 | `seo-output.md` | Report format, output paths, report type templates | `model_decision` |
 | `seo-writer-rules.md` | Trust Tier hierarchy (Tier 0-6), content pipeline behavior protocol | `model_decision` |
+| `web-core.md` | Quy tắc xây dựng Web: Không dùng Tailwind CSS inline, sử dụng 5-phase deployment | `always_on` |
+| `web-auto-routing.md` | Điều phối Web Agents: Frontend (UI/UX) vs Backend (API, DB, WebMCP) | `always_on` |
 
 ## Chi Tiết
 

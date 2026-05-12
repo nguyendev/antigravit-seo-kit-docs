@@ -1,146 +1,51 @@
-# Hệ Thống Agent (9 Agents — 3-Layer Architecture)
+# Hệ Thống Agent (24 Agents — Multi-Domain Architecture)
 
-SEO Kit sử dụng 9 AI agents chuyên biệt, tổ chức thành **3 tầng** + 1 meta-orchestrator. Mỗi agent là một "chuyên gia" tập trung vào lĩnh vực SEO cụ thể, được trang bị bộ kỹ năng riêng.
+Antigravity SEO Kit v1.1.0 đã được nâng cấp thành hệ sinh thái **SEO-Driven Web Development**, phá bỏ ranh giới giữa lập trình và SEO. Hệ thống hiện sử dụng **24 AI agents** chuyên biệt, tổ chức thành **3 Domains (Miền hoạt động)** chính.
 
-## Kiến Trúc 3-Layer
+## 1. Phân Tích & Chiến Lược SEO (SEO Domain)
 
-```
-🎯 META: seo-orchestrator
-│
-├── 🏗️ FOUNDATION (WHAT to do — SEO disciplines)
-│   ├── seo-technical-architect   → Infrastructure, audit, migration, fixes
-│   ├── seo-content-authority     → Strategy, content, E-E-A-T, authority
-│   └── seo-intelligence          → Data analytics, monitoring, attribution
-│
-├── 🌐 SURFACE (WHERE to rank — search surfaces)
-│   ├── seo-ai-search             → GEO, AI Overviews, ChatGPT, agentic web
-│   ├── seo-multimedia            → Video, social, image, visual search
-│   └── seo-local-commerce        → Local, maps, CốcCốc, e-commerce
-│
-└── 🔧 ENABLER (HOW to execute — cross-cutting)
-    ├── seo-creator               → Content pipeline, page optimization, pSEO
-    └── seo-data-provider         → Unified data access (Solann, Google, DataForSEO)
-```
-
-## Tổng Quan
+Bao gồm 9 Agents tổ chức thành **3-Layer Architecture** (Foundation + Surface + Enabler).
 
 | Layer | Agent | Chuyên môn | Skills | Workflow chính |
 |:-----:|-------|-----------|:------:|---------------|
 | 🎯 Meta | `seo-orchestrator` | Lifecycle & coordination | meta | `/seo-run`, `/seo-auto-run` |
 | 🏗️ Foundation | `seo-technical-architect` | Infrastructure & diagnostics | 9 | `/seo-audit` |
-| 🏗️ Foundation | `seo-content-authority` | Strategy & authority | 12 | `/seo-strategy`, `/seo-research`, `/seo-onboard` |
+| 🏗️ Foundation | `seo-content-authority` | Strategy & authority | 12 | `/seo-strategy`, `/seo-research` |
 | 🏗️ Foundation | `seo-intelligence` | Analytics & monitoring | 5 | `/seo-monitor` |
-| 🌐 Surface | `seo-ai-search` | AI/GEO visibility | 6 | `/seo-llm-visibility` |
+| 🌐 Surface | `seo-ai-search` | AI/GEO visibility, WebMCP | 7 | `/seo-llm-visibility` |
 | 🌐 Surface | `seo-multimedia` | Video, social, visual | 4 | `/seo-social-commerce` |
 | 🌐 Surface | `seo-local-commerce` | Local & commerce | 3 | `/seo-local-suite` |
-| 🔧 Enabler | `seo-creator` | Content execution | 4 | `/seo-write`, `/seo-page` |
-| 🔧 Enabler | `seo-data-provider` | Data access layer | 3 | *(enabler — no primary)* |
+| 🔧 Enabler | `seo-creator` | Content execution, IG | 5 | `/seo-write`, `/seo-page` |
+| 🔧 Enabler | `seo-data-provider` | Data access layer | 3 | *(enabler)* |
 
-**Thống kê:** 42 skills unique / 53 with shared. 0 orphan skills. 5 shared skills.
+## 2. Xây Dựng Web Chuẩn SEO (Web Development Domain)
 
-## Agent → Skills Mapping
+Code website như một công cụ để thống trị SERP và các AI Answer Engines.
 
-```
-seo-technical-architect (9 skills) — 🏗️ Foundation
-├── seo                (core: aggregator, crawler)
-├── seo-audit          (orchestration)
-├── seo-technical      (SSL, headers, robots)
-├── seo-content        (E-E-A-T, scoring)        ⟵ shared with content-authority
-├── seo-schema         (JSON-LD, validation)
-├── seo-images         (alt text, formats)
-├── seo-sitemap        (XML sitemap)
-├── seo-hreflang       (international)
-├── seo-migration      (domain moves, CMS)
-└── seo-fix            (bulk technical fixes)
+| Layer | Agent | Chuyên môn | Khái quát công việc | Workflow chính |
+|:-----:|-------|-----------|--------------------|---------------|
+| 🎯 Meta | `web-orchestrator` | Điều phối lập trình web | Phân tích yêu cầu, gọi các chuyên gia lập trình | `/web-orchestrate` |
+| 💻 Core | `web-frontend-specialist` | UI/UX, Core Web Vitals | React, Tailwind, hiệu năng, DOM Rendering | `/web-ui-design`, `/web-enhance` |
+| ⚙️ Core | `web-backend-specialist` | API, Database, Server | API Schema, WebMCP Endpoint, Database | `/web-create` |
 
-seo-content-authority (12 skills) — 🏗️ Foundation
-├── seo-plan           (project planning)
-├── seo-keyword        (keyword research)
-├── seo-solann         (keyword volume, trends)   ⟵ shared with intelligence, data-provider
-├── seo-content-gap    (competitor gaps)
-├── seo-topical-authority (cluster maps)
-├── seo-audience       (personas)
-├── seo-competitor-pages (rival analysis)
-├── seo-content        (quality + E-E-A-T)        ⟵ shared with technical-architect
-├── seo-entity         (entity SEO)
-├── seo-backlink       (link building)
-├── seo-authority      (brand authority + sentiment)
-└── seo-information-gain (comparative IG)          ⟵ shared with creator
+## 3. Kỹ Năng Nền Tảng (Shared Domain)
 
-seo-intelligence (5 skills) — 🏗️ Foundation
-├── seo-solann         (keyword volume, trends)   ⟵ shared with content-authority, data-provider
-├── seo-google         (GSC, PageSpeed, GA4)      ⟵ shared with data-provider
-├── seo-dataforseo     (DataForSEO API)           ⟵ shared with data-provider
-├── seo-logs           (server log analysis)
-└── seo-test           (SEO A/B testing)
+Các Agent dùng chung giúp kiểm soát chất lượng, bảo mật, gỡ lỗi và quản lý hệ thống.
 
-seo-ai-search (6 skills) — 🌐 Surface
-├── seo-geo            (GEO analysis)
-├── seo-geo-monitor    (AI mention tracking)
-├── seo-agentic        (agent readiness)
-├── seo-llm-signals    (llms.txt + CiteMET)
-├── seo-answer         (answer engines)
-└── seo-prompt-research (AI prompt patterns)
+| Agent | Chuyên môn | Khái quát công việc |
+|-------|-----------|--------------------|
+| `debugger` | Gỡ lỗi hệ thống | Phân tích root-cause, sửa lỗi chuyên sâu |
+| `security-auditor` | Đánh giá bảo mật | Quét lỗ hổng (OWASP), bảo vệ dữ liệu |
+| `devops-engineer` | Vận hành & Triển khai | Server management, Docker, Deploy pipelines |
+| `performance-optimizer` | Tối ưu hiệu năng | Phân tích Bundle, Lighthouse audit |
+| `project-planner` | Lập kế hoạch dự án | Phân chia công việc, dependency graph |
+| `explorer-agent` | Phân tích Source Code | Mapping codebase, tìm kiếm tệp tin |
+| `documentation-writer`| Viết tài liệu | Sinh docs API, code comments |
+| `qa-automation-engineer`| Tự động hóa kiểm thử| Playwright, E2E |
+| `test-engineer` | Kỹ sư kiểm thử | Unit tests, Integration tests |
+| `code-archaeologist` | Quản lý Legacy Code | Đọc hiểu mã nguồn cũ, refactoring |
 
-seo-multimedia (4 skills) — 🌐 Surface
-├── seo-social         (Zalo + Reddit/Quora)
-├── seo-video          (YouTube + TikTok/Shorts)
-├── seo-image-gen      (AI images)
-└── seo-visual-search  (Google Lens)
+## Tính Tích Hợp (The Grand Unification)
 
-seo-local-commerce (3 skills) — 🌐 Surface
-├── seo-local          (GBP, NAP, citations)
-├── seo-maps           (geo-grid, map pack)
-└── seo-coccoc-optimizer (Vietnam search)
-
-seo-creator (4 skills) — 🔧 Enabler
-├── seo-writer         (5-step agentic pipeline)
-├── seo-page           (page optimization)
-├── seo-programmatic   (content at scale + fan-out)
-└── seo-information-gain (comparative IG)          ⟵ shared with content-authority
-
-seo-data-provider (3 skills) — 🔧 Enabler
-├── seo-solann         (keyword volume, trends)   ⟵ shared with content-authority, intelligence
-├── seo-google         (GSC, PageSpeed, GA4)      ⟵ shared with intelligence
-└── seo-dataforseo     (DataForSEO API)           ⟵ shared with intelligence
-```
-
-## Shared Skills (5 skills — cùng tên, khác mục đích)
-
-| Skill | Agents | Mục đích |
-|-------|--------|---------|
-| `seo-content` | `seo-technical-architect` (scoring) | `seo-content-authority` (strategy) |
-| `seo-solann` | `seo-content-authority` (strategy volume) | `seo-intelligence` (monitoring) | `seo-data-provider` (data access) |
-| `seo-google` | `seo-intelligence` (analytics) | `seo-data-provider` (data access) |
-| `seo-dataforseo` | `seo-intelligence` (analysis) | `seo-data-provider` (data access) |
-| `seo-information-gain` | `seo-content-authority` (pre-creation IG strategy) | `seo-creator` (post-creation IG validation) |
-
-## Routing Tự Động
-
-SEO Kit tự động chọn agent phù hợp dựa trên:
-
-1. **Lệnh slash** → Agent gắn với workflow đó
-2. **`@agent`** → Load agent trực tiếp
-3. **Ý định** → Auto-detect từ câu hỏi
-4. **Domain** → Hiển thị project state + suggest agent
-
-Ví dụ:
-- "audit site" → `seo-technical-architect`
-- "viết bài" → `seo-creator` → `/seo-write`
-- "appear in ChatGPT" → `seo-ai-search`
-- "local SEO Hà Nội" → `seo-local-commerce`
-- "keyword volume" → `seo-content-authority` (via `seo-data-provider`)
-
-## Cross-Agent Workflow
-
-`/seo-execute` kích hoạt skills từ **nhiều agents**:
-
-| Skill | Source Agent | Điều kiện |
-|-------|-------------|----------|
-| `seo-fix`, `seo-migration` | `seo-technical-architect` | Luôn chạy / `--migration` |
-| `seo-schema` | `seo-technical-architect` | Luôn chạy |
-| `seo-content` | `seo-content-authority` | Luôn chạy |
-| `seo-video`, `seo-image-gen`, `seo-visual-search` | `seo-multimedia` | Nếu phù hợp |
-| `seo-llm-signals` | `seo-ai-search` | Luôn chạy |
-
-Xem chi tiết tại [Workflows](../workflows).
+Khi bạn sử dụng `/seo-execute`, hệ thống không chỉ sửa các thẻ meta, mà `seo-orchestrator` có thể gọi `web-frontend-specialist` để tinh chỉnh cấu trúc DOM React nhằm cải thiện CLS (Cumulative Layout Shift) hoặc LCP (Largest Contentful Paint). 
+Tương tự, khi dùng `/web-create`, `web-backend-specialist` sẽ tự động tuân thủ cấu trúc API Discoverability được quy định bởi `seo-ai-search` để hỗ trợ WebMCP.

@@ -1,18 +1,17 @@
 ```json
 //[doc-seo]
 {
-    "Description": "Tài liệu Antigravity SEO Kit — bộ công cụ AI SEO chuyên nghiệp với 9 agents (3-layer architecture), 42 kỹ năng, 13 workflows, và vòng đời 5 giai đoạn cho Google Antigravity."
+    "Description": "Tài liệu Antigravity SEO Kit — bộ công cụ SEO-Driven Web Development đa miền với 24 agents, 77 kỹ năng, 25 workflows kết hợp sức mạnh tối ưu SEO, Phân tích AI, và Phát triển Web chuẩn SEO."
 }
 ```
 
-Antigravity SEO Kit cung cấp **9 AI agents** tổ chức thành **3-layer architecture** (Foundation + Surface + Enabler), **42 kỹ năng phân tích SEO**, và **13 workflows tự động** (11 static + 2 dynamic), tổ chức thành **vòng đời 5 giai đoạn**. Được xây dựng cho nền tảng [Google Antigravity](https://antigravity.google/download).
+Antigravity SEO Kit đã chuyển mình thành một hệ sinh thái **SEO-Driven Web Development** (Lập trình Web phục vụ tối ưu SEO & GEO). Hệ thống giờ đây bao gồm **24 AI agents**, tổ chức thành **3 Domains** (SEO, Web Development, Shared), **77 kỹ năng chuyên sâu**, và **25 workflows tự động**. Được xây dựng cho nền tảng [Google Antigravity](https://antigravity.google/download).
 
 ## Tại Sao Chọn Antigravity SEO Kit?
 
-- **Agentic SEO**: AI agent tự phân tích, đề xuất, và tạo bản sửa lỗi. Bạn chỉ cần duyệt và áp dụng.
-- **Agentic Content Pipeline**: `/seo-write` — viết bài 5 bước tự động từ research đến deploy.
-- **Vòng đời toàn diện**: Từ onboarding đến monitoring, mỗi giai đoạn xây dựng trên kết quả trước.
-- **Một lệnh duy nhất**: `/seo-run domain.com` tự động phát hiện giai đoạn và đề xuất bước tiếp.
+- **SEO-Driven Web Development**: Mọi dòng code, cấu trúc React/Next.js hay database đều được tối ưu hóa cho Core Web Vitals, Action Schema và Agentic SEO từ đầu.
+- **Agentic SEO & WebMCP**: AI agent tự phân tích, đề xuất, và kết nối với hệ thống web qua Web Model Context Protocol (WebMCP) để tối ưu hiển thị trên các AI Answer Engines.
+- **Vòng đời toàn diện**: Phá bỏ ranh giới giữa Code và SEO. Từ onboarding, research, code web, đến monitoring — tất cả được xử lý chung một phễu.
 - **GEO & AI Search**: Tối ưu cho ChatGPT, Gemini, Perplexity, Cốc Cốc AI — không chỉ Google.
 - **Vietnam-Ready**: Zalo OA, Cốc Cốc, TikTok, Shopee Lens — built-in cho thị trường Việt Nam.
 
@@ -26,60 +25,25 @@ npx antigravity-seo-kit install --key=SK-XXXX-XXXX-XXXX
 
 Xem [Hướng dẫn cài đặt chi tiết](bat-dau/cai-dat.md) nếu bạn mới bắt đầu.
 
-## Vòng Đời SEO
+## Hệ Thống 3 Domains
 
-```
-📋 ONBOARD → 🔎 RESEARCH → 🔍 AUDIT → 🧠 STRATEGY → ⚡ EXECUTE → 📈 MONITOR → (lặp lại)
-```
+Hệ thống được chia thành 3 mảng lớn phối hợp nhịp nhàng:
 
-Đọc thêm tại [Workflows](workflows).
+### 1. Phân Tích & Chiến Lược SEO (SEO Domain)
+Bao gồm 9 Agents và 42 Kỹ năng chuyên sâu về kỹ thuật, nội dung, giám sát, AI search, social và local SEO.
+- Workflow tiêu biểu: `/seo-run`, `/seo-audit`, `/seo-write`, `/seo-llm-visibility`.
 
-### 13 Workflows (11 Static + 2 Dynamic)
+### 2. Xây Dựng Web Chuẩn SEO (Web Development Domain)
+Bao gồm 3 Web Agents và 12 Kỹ năng (Frontend Design, React Performance, API Patterns...). Web Development ở đây là "bộ máy thực thi" để đạt được các mục tiêu SEO.
+- Workflow tiêu biểu: `/web-create`, `/web-ui-design`, `/web-deploy`.
 
-**Static Workflows (11):**
+### 3. Kỹ Năng Nền Tảng (Shared Domain)
+Bao gồm 10 Shared Agents và 21 Kỹ năng bổ trợ (Bảo mật, Gỡ lỗi hệ thống, DevOps, Linux/Bash).
+- Workflow tiêu biểu: `/web-debug`, `/web-test`, `security_scan.py`.
 
-| Workflow | Agent | Mục Đích |
-|----------|-------|----------|
-| [`/seo-onboard`](workflows/seo-onboard.md) | `seo-content-authority` | Khởi tạo dự án, brand identity, personas |
-| [`/seo-research`](workflows/seo-research.md) | `seo-content-authority` | Từ khóa, audience, prompt AI, content gap |
-| [`/seo-audit`](workflows/seo-audit.md) | `seo-technical-architect` | Kiểm tra toàn diện website |
-| [`/seo-strategy`](workflows/seo-strategy.md) | `seo-content-authority` | Chiến lược nội dung & thị trường |
-| [`/seo-execute`](workflows/seo-execute.md) | `seo-technical-architect` | Tạo bản sửa lỗi & nội dung |
-| [`/seo-monitor`](workflows/seo-monitor.md) | `seo-intelligence` | Theo dõi & đo lường |
-| [`/seo-write`](workflows/seo-write.md) | `seo-creator` | **Content pipeline 5 bước** |
-| [`/seo-page`](workflows/seo-page.md) | `seo-creator` | Phân tích trang đơn |
-| [`/seo-llm-visibility`](workflows/seo-llm-visibility.md) | `seo-ai-search` | GEO: AI SOV, fan-out, brand sentiment |
-| [`/seo-social-commerce`](workflows/seo-social-commerce.md) | `seo-multimedia` | Zalo, TikTok, Visual Search |
-| [`/seo-local-suite`](workflows/seo-local-suite.md) | `seo-local-commerce` | Local SEO chuyên sâu |
+Xem chi tiết tại [Hệ thống Agent](kien-truc/he-thong-agent.md).
 
-**Dynamic Meta-Workflows (2):**
-
-| Workflow | Mô tả |
-|----------|--------|
-| [`/seo-run`](workflows/seo-run.md) | Interactive: dashboard, đề xuất bước tiếp, chờ duyệt |
-| [`/seo-auto-run`](workflows/seo-auto-run.md) | Autonomous: chuỗi tất cả phases còn lại tự động |
-
-### 42 Kỹ Năng (53 with shared)
-
-Tổ chức thành 8 nhóm, 5 skills chia sẻ giữa agents. Xem [Kỹ Năng](ky-nang).
-
-### 9 AI Agents (3-Layer)
-
-| Layer | Agent | Skills | Chuyên môn | Workflow chính |
-|:-----:|-------|:------:|-----------|---------------|
-| 🎯 Meta | `seo-orchestrator` | meta | Lifecycle & coordination | `/seo-run`, `/seo-auto-run` |
-| 🏗️ Foundation | `seo-technical-architect` | 9 | Infrastructure & diagnostics | `/seo-audit` |
-| 🏗️ Foundation | `seo-content-authority` | 12 | Strategy & authority | `/seo-strategy`, `/seo-research` |
-| 🏗️ Foundation | `seo-intelligence` | 5 | Analytics & monitoring | `/seo-monitor` |
-| 🌐 Surface | `seo-ai-search` | 6 | AI/GEO visibility | `/seo-llm-visibility` |
-| 🌐 Surface | `seo-multimedia` | 4 | Video, social, visual | `/seo-social-commerce` |
-| 🌐 Surface | `seo-local-commerce` | 3 | Local & commerce | `/seo-local-suite` |
-| 🔧 Enabler | `seo-creator` | 4 | Content execution | `/seo-write`, `/seo-page` |
-| 🔧 Enabler | `seo-data-provider` | 3 | Data access layer | *(enabler)* |
-
-Xem [Hệ thống Agent](kien-truc/he-thong-agent.md) để biết chi tiết.
-
-### Mở Rộng (Extensions) - Sẽ ra mắt vào V2
+## Mở Rộng (Extensions)
 
 | Extension | Chức Năng |
 |-----------|----------|
@@ -92,10 +56,11 @@ Xem [Hệ thống Agent](kien-truc/he-thong-agent.md) để biết chi tiết.
 
 ## Phiên Bản
 
-Phiên bản hiện tại: **1.0.7**. Xem [Ghi chú phát hành](ghi-chu-phat-hanh.md).
+Phiên bản hiện tại: **1.1.0 (The Grand Unification)**. Xem [Ghi chú phát hành](ghi-chu-phat-hanh.md).
 
 ## Mua & Hỗ Trợ
 
 - Mua license: [antigravityseokit.solann.io](https://antigravityseokit.solann.io/)
 - Quản lý & gia hạn: [app.solann.io](https://app.solann.io/)
 - Hỗ trợ: support@solann.io
+

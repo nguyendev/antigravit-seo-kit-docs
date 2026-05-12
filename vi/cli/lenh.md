@@ -1,4 +1,4 @@
-﻿# Danh Sách Lệnh
+# Danh Sách Lệnh
 
 ## Lifecycle Workflows (Static — Agent cố định)
 
@@ -15,6 +15,36 @@
 | `/seo-llm-visibility <domain>` | `seo-ai-search` | GEO: AI SOV, fan-out, brand sentiment |
 | `/seo-social-commerce <domain>` | `seo-multimedia` | Zalo, TikTok, Visual Search (VN market) |
 | `/seo-local-suite <domain>` | `seo-local-commerce` | Local SEO: GBP, Maps |
+
+## Web Development Workflows (SEO-Driven)
+
+Khác với nhóm `/seo-*` chuyên dùng để phân tích và tối ưu, nhóm `/web-*` dùng để lập trình và xây dựng website theo tư tưởng "Code để Rank".
+
+| Lệnh | Agent | Mô tả |
+|------|-------|-------|
+| `/web-create` | `web-orchestrator` | Khởi tạo ứng dụng mới từ đầu |
+| `/web-enhance` | `web-orchestrator` | Nâng cấp hoặc thêm tính năng mới |
+| `/web-ui-design` | `web-frontend-specialist` | Tạo hoặc thiết kế lại UI/UX chuẩn Web Vitals |
+| `/web-deploy` | `devops-engineer` | Triển khai an toàn lên Production (5-phase rollout) |
+| `/web-test` | `qa-automation-engineer` | Viết & chạy test tự động (Playwright/Jest) |
+| `/web-preview` | N/A | Chạy dev server để xem trước giao diện |
+| `/web-debug` | `debugger` | Bật chế độ tìm diệt bug chuyên sâu |
+| `/web-plan` | `project-planner` | Lên kế hoạch cấu trúc và hệ thống cho dự án web |
+| `/web-brainstorm` | N/A | Thảo luận và nghiên cứu giải pháp lập trình |
+| `/web-status` | N/A | Xem tiến độ hiện tại của dự án Web |
+| `/web-orchestrate` | `web-orchestrator` | Gọi nhiều agent cùng làm một task phức tạp |
+
+## Shared & Verification Scripts
+
+Các script chạy ngoài luồng dùng để kiểm tra dự án (dành cho cả SEO và Web):
+
+| Script | Thư mục | Mục đích |
+|--------|---------|----------|
+| `verify_all.py` | `.agent/scripts/` | Chạy toàn bộ suite kiểm tra (Master Script) |
+| `checklist.py` | `.agent/scripts/` | Kiểm tra Priority: Security, Lint, Schema, UX |
+| `security_scan.py` | `.agent/skills/vulnerability-scanner/`| Quét bảo mật dự án trước khi deploy |
+| `lighthouse_audit.py` | `.agent/skills/performance-profiling/`| Quét Core Web Vitals |
+| `webmcp_audit.py` | `.agent/skills/seo-agentic/` | Chấm điểm mức độ sẵn sàng cho AI Agent |
 
 ## Dynamic Meta-Workflows (Agent theo phase)
 

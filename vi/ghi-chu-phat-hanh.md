@@ -1,5 +1,22 @@
 # Ghi Chú Phát Hành
 
+## v1.1.0 (2026-05-12) — The Grand Unification
+
+### Thay Đổi Lớn (Major Update)
+
+- **Sáp nhập Web Kit vào SEO Kit**: Cập nhật khổng lồ với 189 file thay đổi, đưa hệ thống từ một bộ công cụ SEO đơn thuần thành một hệ sinh thái **SEO-Driven Web Development**.
+- **Mở Rộng Hệ Thống Agent**: Từ 9 Agents tăng lên **24 Agents**.
+  - Thêm 3 Web Agents (`web-frontend-specialist`, `web-backend-specialist`, `web-orchestrator`).
+  - Thêm 10 Shared Agents (Bảo mật, DevOps, Test...).
+- **Mở Rộng Kỹ Năng**: Tổng số kỹ năng tăng lên **77 Skills**. Thêm 12 Web Skills (React Performance, API, Database...) và 21 Shared Skills.
+- **Agentic SEO & WebMCP**: 
+  - Bổ sung framework Web Model Context Protocol (WebMCP) trong bộ `seo-agentic`.
+  - Phát triển script `webmcp_audit.py` và `webmcp_generator.py` để tạo form tương tác và Action Schema phục vụ AI Agents.
+- **Workflow Mới**: Thêm 11 `/web-*` workflows (`/web-create`, `/web-ui-design`, `/web-deploy`...).
+- **Quy trình Xác Thực Mới**: Tích hợp `verify_all.py` - script master cho Audit Code, Web Vitals, và Bảo mật.
+
+---
+
 ## v1.0.7 (2026-05-01)
 
 ### Thay Đổi Lớn
